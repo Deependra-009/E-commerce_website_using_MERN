@@ -104,6 +104,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5%;
 }
 .footerbox p{
     font-size: 25px;

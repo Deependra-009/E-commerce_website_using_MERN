@@ -583,100 +583,95 @@ const Beauty=[
 const Fitness=[
     {
         id:1,
-        image:"images/Beauty/Fitness/fitness.jpeg",
-        name:"Fitness"
+        image:"images/Beauty/Fitness/adrenex.jpeg",
+        name:"Adrenex"
     },
     {
-        id:1,
-        image:"images/Beauty/Fitness/fitness.jpeg",
-        name:"Fitness"
+        id:2,
+        image:"images/Beauty/Fitness/airbike.jpeg",
+        name:"Adrenex"
     },
     {
-        id:1,
-        image:"images/Beauty/Fitness/fitness.jpeg",
-        name:"Fitness"
+        id:3,
+        image:"images/Beauty/Fitness/go20in1.jpeg",
+        name:"GoFiTPrO 20 in 1 bench "
     },
     {
-        id:1,
-        image:"images/Beauty/Fitness/fitness.jpeg",
-        name:"Fitness"
+        id:4,
+        image:"images/Beauty/Fitness/gofitpro.jpeg",
+        name:"GoFiTPrO"
     },
     {
-        id:1,
-        image:"images/Beauty/Fitness/fitness.jpeg",
-        name:"Fitness"
+        id:5,
+        image:"images/Beauty/Fitness/icycle.jpeg",
+        name:"Adrenex AIRBIKE90BS"
     },
     {
-        id:1,
-        image:"images/Beauty/Fitness/fitness.jpeg",
-        name:"Fitness"
+        id:6,
+        image:"images/Beauty/Fitness/muskular.jpeg",
+        name:"muskular 20 kg "
     },
     {
-        id:1,
-        image:"images/Beauty/Fitness/fitness.jpeg",
-        name:"Fitness"
+        id:7,
+        image:"images/Beauty/Fitness/obodumbell.jpeg",
+        name:"KOBO Dumbbell Bench"
     },
     {
-        id:1,
-        image:"images/Beauty/Fitness/fitness.jpeg",
-        name:"Fitness"
+        id:8,
+        image:"images/Beauty/Fitness/stunner.jpeg",
+        name:"Stunner Fitness"
     },
     {
-        id:1,
-        image:"images/Beauty/Fitness/fitness.jpeg",
-        name:"Fitness"
-    },
-    {
-        id:1,
-        image:"images/Beauty/Fitness/fitness.jpeg",
-        name:"Fitness"
+        id:9,
+        image:"images/Beauty/Fitness/vickytranform.jpeg",
+        name:"Vicky Transform 50 kg "
     }
 ];
 
 const Food=[
     {
         id:1,
-        image:"images/Beauty/Foods/foods.jpeg",
+        image:"images/Beauty/Foods/boost.jpeg",
         name:"Food"
     },
     {
-        id:1,
-        image:"images/Beauty/Foods/foods.jpeg",
+        id:2,
+        image:"images/Beauty/Foods/bournvita.jpeg",
         name:"Food"
     },
     {
-        id:1,
-        image:"images/Beauty/Foods/foods.jpeg",
+        id:3,
+        image:"images/Beauty/Foods/cashew.jpeg",
         name:"Food"
     },
     {
-        id:1,
-        image:"images/Beauty/Foods/foods.jpeg",
+        id:4,
+        image:"images/Beauty/Foods/dettol.jpeg",
         name:"Food"
     },
     {
-        id:1,
-        image:"images/Beauty/Foods/foods.jpeg",
+        id:5,
+        image:"images/Beauty/Foods/farmley.jpeg",
         name:"Food"
     },
     {
-        id:1,
-        image:"images/Beauty/Foods/foods.jpeg",
+        id:6,
+        image:"images/Beauty/Foods/horlicks.jpeg",
         name:"Food"
     },
     {
-        id:1,
-        image:"images/Beauty/Foods/foods.jpeg",
+        id:7,
+        image:"images/Beauty/Foods/lipton.jpeg",
         name:"Food"
     },
     {
-        id:1,
-        image:"images/Beauty/Foods/foods.jpeg",
+        id:8,
+        image:"images/Beauty/Foods/saffola.jpeg",
         name:"Food"
     },
     {
-        id:1,
-        image:"images/Beauty/Foods/foods.jpeg",
+        id:9,
+        image:"images/Beauty/Foods/saffolagold.jpeg",
         name:"Food"
     }
 ];
@@ -685,48 +680,48 @@ const Food=[
 const Toy=[
     {
         id:1,
-        image:"images/Beauty/Toy/toy.jpeg",
-        name:"Toy"
+        image:"images/Beauty/Toy/atvcycle.jpeg",
+        name:"ATV Style 6V 4.5 AH 20W"
     },
     {
-        id:1,
-        image:"images/Beauty/Toy/toy.jpeg",
-        name:"Toy"
+        id:2,
+        image:"images/Beauty/Toy/bikebattery.jpeg",
+        name:"letzride Bike Battery "
     },
     {
-        id:1,
-        image:"images/Beauty/Toy/toy.jpeg",
-        name:"Toy"
+        id:3,
+        image:"images/Beauty/Toy/dcube.jpeg",
+        name:"D ETERNAL Cube 3x3x3 cube"
     },
     {
-        id:1,
-        image:"images/Beauty/Toy/toy.jpeg",
-        name:"Toy"
+        id:4,
+        image:"images/Beauty/Toy/miniracing.jpeg",
+        name:"Miss & Chief Mini Racing 4"
     },
     {
-        id:1,
-        image:"images/Beauty/Toy/toy.jpeg",
-        name:"Toy"
+        id:5,
+        image:"images/Beauty/Toy/miss.jpeg",
+        name:"Miss & Chief Sound and Light "
     },
     {
-        id:1,
-        image:"images/Beauty/Toy/toy.jpeg",
-        name:"Toy"
+        id:6,
+        image:"images/Beauty/Toy/moster.jpeg",
+        name:"Hummer Monster Racing Car"
     },
     {
-        id:1,
-        image:"images/Beauty/Toy/toy.jpeg",
-        name:"Toy"
+        id:7,
+        image:"images/Beauty/Toy/ratnas.jpeg",
+        name:"4 In 1 Animal World Jigsaw puzzle"
     },
     {
-        id:1,
-        image:"images/Beauty/Toy/toy.jpeg",
-        name:"Toy"
+        id:8,
+        image:"images/Beauty/Toy/sagar.jpeg",
+        name:" 36 Tiles Kids Puzzle Mats "
     },
     {
-        id:1,
-        image:"images/Beauty/Toy/toy.jpeg",
-        name:"Toy"
+        id:9,
+        image:"images/Beauty/Toy/stuntcar.jpeg",
+        name:" 360 Degree Twisting Stunt Car"
     }
 ];
 

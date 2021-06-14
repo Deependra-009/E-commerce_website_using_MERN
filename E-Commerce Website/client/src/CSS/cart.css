@@ -285,24 +285,6 @@ header {
   margin-left: 23px;
 }
 
-/* hover effects  */
-.fa-trash-alt {
-  color: #ed4848;
-}
-
-.fa-plus:hover {
-  color: #42c157;
-}
-
-.fa-minus:hover {
-  color: #ffb800;
-}
-
-.fa-plus,
-.fa-minus {
-  color: var(--icon-color);
-}
-
 .card-total button:hover {
   background-color: #0077dc;
 }
