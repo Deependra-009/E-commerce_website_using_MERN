@@ -191,50 +191,50 @@ const Laptopcards=[
 const Televisioncards=[
     {
         id:1,
-        image:"images/TV/tv.jpeg",
-        name:"Television",
+        image:"images/TV/1.jpeg",
+        name:"LG All-in-One 126 cm ",
        
     },
     {
-        id:1,
-        image:"images/TV/tv.jpeg",
-        name:"Television",
+        id:2,
+        image:"images/TV/2.jpeg",
+        name:"OnePlus U1S 164 cm ",
        
     },
     {
-        id:1,
-        image:"images/TV/tv.jpeg",
-        name:"Television",
+        id:3,
+        image:"images/TV/3.jpeg",
+        name:"SAMSUNG Crystal 4K Pro 163 cm ",
        
     },
     {
-        id:1,
-        image:"images/TV/tv.jpeg",
-        name:"Television",
+        id:4,
+        image:"images/TV/4.jpeg",
+        name:"OnePlus U1S 164 cm",
        
     },
     {
-        id:1,
-        image:"images/TV/tv.jpeg",
-        name:"Television",
+        id:5,
+        image:"images/TV/5.jpeg",
+        name:"Mi 4A PRO 80 cm ",
        
     },
     {
-        id:1,
-        image:"images/TV/tv.jpeg",
-        name:"Television",
+        id:6,
+        image:"images/TV/6.jpeg",
+        name:"realme 80 cm",
        
     },
     {
-        id:1,
-        image:"images/TV/tv.jpeg",
-        name:"Television",
+        id:7,
+        image:"images/TV/7.jpeg",
+        name:"LG 80 cm",
        
     },
     {
-        id:1,
-        image:"images/TV/tv.jpeg",
-        name:"Television",
+        id:8,
+        image:"images/TV/8.jpeg",
+        name:"Mi 4X 108 cm",
        
     }
 
@@ -247,56 +247,56 @@ const Televisioncards=[
 const AC=[
     {
         id:1,
-        image:"images/AC/ac.jpeg",
-        name:"Air Conditioner",
+        image:"images/AC/1.jpeg",
+        name:"Midea 1.5 Ton ",
        
     },
     {
-        id:1,
-        image:"images/AC/ac.jpeg",
-        name:"Air Conditioner",
+        id:2,
+        image:"images/AC/2.jpeg",
+        name:"ONIDA 1.5 Ton",
        
     },
     {
-        id:1,
-        image:"images/AC/ac.jpeg",
-        name:"Air Conditioner",
+        id:3,
+        image:"images/AC/3.jpeg",
+        name:"SAMSUNG 1.5 Ton",
        
     },
     {
-        id:1,
-        image:"images/AC/ac.jpeg",
-        name:"Air Conditioner",
+        id:4,
+        image:"images/AC/4.jpeg",
+        name:"Whirlpool 1 Ton 3",
        
     },
     {
-        id:1,
-        image:"images/AC/ac.jpeg",
-        name:"Air Conditioner",
+        id:5,
+        image:"images/AC/5.jpeg",
+        name:"LG Convertible ",
        
     },
     {
-        id:1,
-        image:"images/AC/ac.jpeg",
-        name:"Air Conditioner",
+        id:6,
+        image:"images/AC/6.jpeg",
+        name:"Voltas ",
        
     },
     {
-        id:1,
-        image:"images/AC/ac.jpeg",
-        name:"Air Conditioner",
+        id:7,
+        image:"images/AC/7.jpeg",
+        name:"ONIDA 1.5 Ton",
        
     },
     {
-        id:1,
-        image:"images/AC/ac.jpeg",
-        name:"Air Conditioner",
+        id:8,
+        image:"images/AC/8.jpeg",
+        name:"SAMSUNG 1.5 Ton",
        
     },
     {
-        id:1,
-        image:"images/AC/ac.jpeg",
-        name:"Air Conditioner",
+        id:9,
+        image:"images/AC/9.jpeg",
+        name:"SAMSUNG 1.5 Ton",
        
     }
 
@@ -729,191 +729,191 @@ const Toy=[
 const Men=[
     {
         id:1,
-        image:"images/Fashion/men/men.jpeg",
-        name:"Men"
+        image:"images/Fashion/men/blackredtshirt.jpeg",
+        name:"Solid Black T-Shirt",
     },
     {
-        id:1,
-        image:"images/Fashion/men/men.jpeg",
-        name:"Men"
+        id:2,
+        image:"images/Fashion/men/blacktshirt.jpeg",
+        name:"Color Black  T-Shirt",
     },
     {
-        id:1,
-        image:"images/Fashion/men/men.jpeg",
-        name:"Men"
+        id:3,
+        image:"images/Fashion/men/blockmenround.jpeg",
+        name:"color block men round neck",
     },
     {
-        id:1,
-        image:"images/Fashion/men/men.jpeg",
-        name:"Men"
+        id:4,
+        image:"images/Fashion/men/blockmenround1.jpeg",
+        name:"Color Black, White T-Shirt",
     },
     {
-        id:1,
-        image:"images/Fashion/men/men.jpeg",
-        name:"Men"
+        id:5,
+        image:"images/Fashion/men/menhooked.jpeg",
+        name:"Printed White, Red T-Shirt",
     },
     {
-        id:1,
-        image:"images/Fashion/men/men.jpeg",
-        name:"Men"
+        id:6,
+        image:"images/Fashion/men/mentop.jpeg",
+        name:"Men Solid Spread Collar Casual Shirt",
     },
     {
-        id:1,
-        image:"images/Fashion/men/men.jpeg",
-        name:"Men"
+        id:7,
+        image:"images/Fashion/men/multicolor.jpeg",
+        name:"Color Multicolor T-Shirt",
     },
     {
-        id:1,
-        image:"images/Fashion/men/men.jpeg",
-        name:"Men"
+        id:8,
+        image:"images/Fashion/men/neckblacktshirt.jpeg",
+        name:"Color Black T-Shirt",
     },
     {
-        id:1,
-        image:"images/Fashion/men/men.jpeg",
-        name:"Men"
+        id:9,
+        image:"images/Fashion/men/neckred.jpeg",
+        name:" Red, Black T-Shirt",
     }
 ];
 const Women=[
     {
         id:1,
-        image:"images/Fashion/women/women.jpeg",
-        name:"Women"
+        image:"images/Fashion/women/floralprint.jpeg",
+        name:"Floral Print Fashion Lycra Blend Saree",
     },
     {
-        id:1,
-        image:"images/Fashion/women/women.jpeg",
-        name:"Women"
+        id:2,
+        image:"images/Fashion/women/printmysore.jpeg",
+        name:"Printed Mysore Art Silk Saree",
     },
     {
-        id:1,
-        image:"images/Fashion/women/women.jpeg",
-        name:"Women"
+        id:3,
+        image:"images/Fashion/women/kanjivaram.jpeg",
+        name:"Printed Kanjivaram Cotton Silk Saree ",
     },
     {
-        id:1,
-        image:"images/Fashion/women/women.jpeg",
-        name:"Women"
+        id:4,
+        image:"images/Fashion/women/fashioncotton.jpeg",
+        name:"Checkered Fashion Cotton Silk Saree",
     },
     {
-        id:1,
-        image:"images/Fashion/women/women.jpeg",
-        name:"Women"
+        id:5,
+        image:"images/Fashion/women/selfdesign.jpeg",
+        name:"Kanjivaram Poly Silk Saree",
     },
     {
-        id:1,
-        image:"images/Fashion/women/women.jpeg",
-        name:"Women"
+        id:6,
+        image:"images/Fashion/women/floralprint1.jpeg",
+        name:"Floral Print, Paisley Mysore Art Silk Saree ",
     },
     {
-        id:1,
-        image:"images/Fashion/women/women.jpeg",
-        name:"Women"
+        id:7,
+        image:"images/Fashion/women/banarasinet.jpeg",
+        name:"Embroidered Banarasi Net, Velvet Saree",
     },
     {
-        id:1,
-        image:"images/Fashion/women/women.jpeg",
-        name:"Women"
+        id:8,
+        image:"images/Fashion/women/mysoreartsilk.jpeg",
+        name:"Printed Mysore Art Silk Saree ",
     },
     {
-        id:1,
-        image:"images/Fashion/women/women.jpeg",
-        name:"Women"
+        id:9,
+        image:"images/Fashion/women/printeddaily.jpeg",
+        name:"Printed Daily Wear Poly Georgette Saree ",
     }
 ];
 
 const Kids=[
     {
         id:1,
-        image:"images/Fashion/Child/child.jpeg",
-        name:"Kids"
+        image:"images/Fashion/Child/babygirls.jpeg",
+        name:"Girls Calf Length Casual Dress",
     },
     {
-        id:1,
-        image:"images/Fashion/Child/child.jpeg",
-        name:"Kids"
+        id:2,
+        image:"images/Fashion/Child/donald.jpeg",
+        name:"Boys Printed Cotton Blend T Shirt",
     },
     {
-        id:1,
-        image:"images/Fashion/Child/child.jpeg",
-        name:"Kids"
+        id:3,
+        image:"images/Fashion/Child/boysfestive.jpeg",
+        name:"Boys Festive & Party Kurta ",
     },
     {
-        id:1,
-        image:"images/Fashion/Child/child.jpeg",
-        name:"Kids"
+        id:4,
+        image:"images/Fashion/Child/girlslenga.jpeg",
+        name:"Printed Lehenga, Choli and Dupatta Set  ",
     },
     {
-        id:1,
-        image:"images/Fashion/Child/child.jpeg",
-        name:"Kids"
+        id:5,
+        image:"images/Fashion/Child/girlsparty.jpeg",
+        name:"Girls Party Dress Cap ",
+    },
+    {  
+        id:6,
+        image:"images/Fashion/Child/boysprinted.jpeg",
+        name:"Boys Printed Cotton Blend T Shirt ",
     },
     {
-        id:1,
-        image:"images/Fashion/Child/child.jpeg",
-        name:"Kids"
+        id:7,
+        image:"images/Fashion/Child/boys1.jpeg",
+        name:"Boys Festive & Party Kurta",
     },
     {
-        id:1,
-        image:"images/Fashion/Child/child.jpeg",
-        name:"Kids"
+        id:8,
+        image:"images/Fashion/Child/2.jpeg",
+        name:"Party Kurta and Pyjama Set ",
     },
     {
-        id:1,
-        image:"images/Fashion/Child/child.jpeg",
-        name:"Kids"
-    },
-    {
-        id:1,
-        image:"images/Fashion/Child/child.jpeg",
-        name:"Kids"
+        id:9,
+        image:"images/Fashion/Child/3.jpeg",
+        name:"Party Kurta and Dhoti Pant Set",
     }
 ];
 
 const Watch=[
     {
         id:1,
-        image:"images/Fashion/Watch/watch.jpeg",
-        name:"Watch"
+        image:"images/Fashion/Watch/1.jpeg",
+        name:"huami Smartwatch",
     },
     {
-        id:1,
-        image:"images/Fashion/Watch/watch.jpeg",
-        name:"Watch"
+        id:2,
+        image:"images/Fashion/Watch/2.jpeg",
+        name:"boAt Storm Smartwatch",
     },
     {
-        id:1,
-        image:"images/Fashion/Watch/watch.jpeg",
-        name:"Watch"
+        id:3,
+        image:"images/Fashion/Watch/3.jpeg",
+        name:"Noise ColorFit Pro 2 Smartwatch",
     },
     {
-        id:1,
-        image:"images/Fashion/Watch/watch.jpeg",
-        name:"Watch"
+        id:4,
+        image:"images/Fashion/Watch/4.jpeg",
+        name:"Realme Classic Watch ",
     },
     {
-        id:1,
-        image:"images/Fashion/Watch/watch.jpeg",
-        name:"Watch"
+        id:5,
+        image:"images/Fashion/Watch/5.jpeg",
+        name:"realme Watch S",
     },
     {
-        id:1,
-        image:"images/Fashion/Watch/watch.jpeg",
-        name:"Watch"
+        id:6,
+        image:"images/Fashion/Watch/6.jpeg",
+        name:"huami Amazfit Bip U Smartwatch",
     },
     {
-        id:1,
-        image:"images/Fashion/Watch/watch.jpeg",
-        name:"Watch"
+        id:7,
+        image:"images/Fashion/Watch/7.jpeg",
+        name:"GIONEE GSW5 Thermo Smartwatch",
     },
     {
-        id:1,
-        image:"images/Fashion/Watch/watch.jpeg",
-        name:"Watch"
+        id:8,
+        image:"images/Fashion/Watch/8.jpeg",
+        name:"APPLE Watch SE",
     },
     {
-        id:1,
-        image:"images/Fashion/Watch/watch.jpeg",
-        name:"Watch"
+        id:9,
+        image:"images/Fashion/Watch/9.jpeg",
+        name:"huami Amazfit GTS Smartwatch",
     }
 ];
 

@@ -15,7 +15,7 @@ const Kidspage=()=>{
                     {
                         Kids.map((val) => {
                             return (
-                                <Laptopcard id={val.id} imgsrc={val.image} cname={val.name} list={val.list}></Laptopcard>
+                                <Laptopcard price={val.price} id={val.id} imgsrc={val.image} cname={val.name} list={val.list}></Laptopcard>
                             )
                         })
                     }

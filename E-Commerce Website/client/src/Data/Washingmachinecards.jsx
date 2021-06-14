@@ -1,133 +1,114 @@
 const Washingmachinecards=[
     {
         id:1,
-        image:"images/Washingmachine/wm.jpeg",
-        name:"Asus Rog 5",
+        image:"images/Washingmachine/1.jpeg",
+        name:"SAMSUNG 6.5 kg Monsoon drying feature Fully Automatic Top Load Silver  (WA65A4002VS/TL)",
         list:[
-            {l:"6 GB RAM | 64 GB ROM | Expandable Upto 512 GB"},
-            {l:"16.59 cm (6.53 inch) Full HD+ Display"},
-            {l:"48MP + 2MP + 2MP | 8MP Front Camera"},
-            {l:"6000 mAh Lithium-ion Polymer Battery"},
-            {l:"Qualcomm Snapdragon 662 Processor"},
-            {l:"One Year Warranty for Handset, 6 Months for Accessories" }    
-        ]
+            {l:"Fully Automatic Top Load Washing Machines are ergonomically friendly and provide great wash quality"},
+            {l:"680 rpm : Higher the spin speed, lower the drying time"},
+            {l:"6.5 kg"} 
+        ],
+        price:"₹14,190"
     },
     {
-        id:1,
-        image:"images/Washingmachine/wm.jpeg",
-        name:"Asus Rog 5",
+        id:2,
+        image:"images/Washingmachine/2.jpeg",
+        name:"Whirlpool 7 kg 5 Star,Turbo Scrub Technology Semi Automatic Top Load Grey  (SUPERB ATOM 70S GREY DAZZLE (5YR))",
         list:[
-            {l:"6 GB RAM | 64 GB ROM | Expandable Upto 512 GB"},
-            {l:"16.59 cm (6.53 inch) Full HD+ Display"},
-            {l:"48MP + 2MP + 2MP | 8MP Front Camera"},
-            {l:"6000 mAh Lithium-ion Polymer Battery"},
-            {l:"Qualcomm Snapdragon 662 Processor"},
-            {l:"One Year Warranty for Handset, 6 Months for Accessories" }    
-        ]
+            {l:"Semi Automatic Top Load"},
+            {l:"1450 rpm : Higher the spin speed, lower the drying time"},
+            {l:"7 kg"}, 
+            {l:"5 Star Rating"},   
+        ],
+        price:"₹9,990"
     },
     {
-        id:1,
-        image:"images/Washingmachine/wm.jpeg",
-        name:"Asus Rog 5",
+        id:3,
+        image:"images/Washingmachine/3.jpeg",
+        name:"SAMSUNG 6 kg 5 star Inverter Fully Automatic Front Load with In-built Heater White  (WW60R20GLMA/TL)",
         list:[
-            {l:"6 GB RAM | 64 GB ROM | Expandable Upto 512 GB"},
-            {l:"16.59 cm (6.53 inch) Full HD+ Display"},
-            {l:"48MP + 2MP + 2MP | 8MP Front Camera"},
-            {l:"6000 mAh Lithium-ion Polymer Battery"},
-            {l:"Qualcomm Snapdragon 662 Processor"},
-            {l:"One Year Warranty for Handset, 6 Months for Accessories" }    
-        ]
+            {l:"Fully Automatic Top Load Washing Machines are ergonomically friendly and provide great wash quality"},
+            {l:"1000 rpm : Higher the spin speed, lower the drying time"},
+            {l:"6.5 kg"} 
+        ],
+        price:"₹21,990"
     },
     {
-        id:1,
-        image:"images/Washingmachine/wm.jpeg",
+        id:4,
+        image:"images/Washingmachine/4.jpeg",
         name:"Asus Rog 5",
         list:[
-            {l:"6 GB RAM | 64 GB ROM | Expandable Upto 512 GB"},
-            {l:"16.59 cm (6.53 inch) Full HD+ Display"},
-            {l:"48MP + 2MP + 2MP | 8MP Front Camera"},
-            {l:"6000 mAh Lithium-ion Polymer Battery"},
-            {l:"Qualcomm Snapdragon 662 Processor"},
-            {l:"One Year Warranty for Handset, 6 Months for Accessories" }    
-        ]
+            {l:"Fully Automatic Top Load Washing Machines are ergonomically friendly and provide great wash quality"},
+            {l:"680 rpm : Higher the spin speed, lower the drying time"},
+            {l:"6.5 kg"} 
+        ],
+        price:""
     },
     {
-        id:1,
-        image:"images/Washingmachine/wm.jpeg",
+        id:5,
+        image:"images/Washingmachine/5.jpeg",
         name:"Asus Rog 5",
         list:[
-            {l:"6 GB RAM | 64 GB ROM | Expandable Upto 512 GB"},
-            {l:"16.59 cm (6.53 inch) Full HD+ Display"},
-            {l:"48MP + 2MP + 2MP | 8MP Front Camera"},
-            {l:"6000 mAh Lithium-ion Polymer Battery"},
-            {l:"Qualcomm Snapdragon 662 Processor"},
-            {l:"One Year Warranty for Handset, 6 Months for Accessories" }    
-        ]
+            {l:"Fully Automatic Top Load Washing Machines are ergonomically friendly and provide great wash quality"},
+            {l:"680 rpm : Higher the spin speed, lower the drying time"},
+            {l:"6.5 kg"} 
+        ],
+        price:""
     },
     {
-        id:1,
-        image:"images/Washingmachine/wm.jpeg",
+        id:6,
+        image:"images/Washingmachine/6.jpeg",
         name:"Asus Rog 5",
         list:[
-            {l:"6 GB RAM | 64 GB ROM | Expandable Upto 512 GB"},
-            {l:"16.59 cm (6.53 inch) Full HD+ Display"},
-            {l:"48MP + 2MP + 2MP | 8MP Front Camera"},
-            {l:"6000 mAh Lithium-ion Polymer Battery"},
-            {l:"Qualcomm Snapdragon 662 Processor"},
-            {l:"One Year Warranty for Handset, 6 Months for Accessories" }    
-        ]
+            {l:"Fully Automatic Top Load Washing Machines are ergonomically friendly and provide great wash quality"},
+            {l:"680 rpm : Higher the spin speed, lower the drying time"},
+            {l:"6.5 kg"} 
+        ],
+        price:""
     },
     {
-        id:1,
-        image:"images/Washingmachine/wm.jpeg",
+        id:7,
+        image:"images/Washingmachine/7.jpeg",
         name:"Asus Rog 5",
         list:[
-            {l:"6 GB RAM | 64 GB ROM | Expandable Upto 512 GB"},
-            {l:"16.59 cm (6.53 inch) Full HD+ Display"},
-            {l:"48MP + 2MP + 2MP | 8MP Front Camera"},
-            {l:"6000 mAh Lithium-ion Polymer Battery"},
-            {l:"Qualcomm Snapdragon 662 Processor"},
-            {l:"One Year Warranty for Handset, 6 Months for Accessories" }    
-        ]
+            {l:"Fully Automatic Top Load Washing Machines are ergonomically friendly and provide great wash quality"},
+            {l:"680 rpm : Higher the spin speed, lower the drying time"},
+            {l:"6.5 kg"} 
+        ],
+        price:""
     },
     {
-        id:1,
-        image:"images/Washingmachine/wm.jpeg",
+        id:8,
+        image:"images/Washingmachine/8.jpeg",
         name:"Asus Rog 5",
         list:[
-            {l:"6 GB RAM | 64 GB ROM | Expandable Upto 512 GB"},
-            {l:"16.59 cm (6.53 inch) Full HD+ Display"},
-            {l:"48MP + 2MP + 2MP | 8MP Front Camera"},
-            {l:"6000 mAh Lithium-ion Polymer Battery"},
-            {l:"Qualcomm Snapdragon 662 Processor"},
-            {l:"One Year Warranty for Handset, 6 Months for Accessories" }    
-        ]
+            {l:"Fully Automatic Top Load Washing Machines are ergonomically friendly and provide great wash quality"},
+            {l:"680 rpm : Higher the spin speed, lower the drying time"},
+            {l:"6.5 kg"} 
+        ],
+        price:""
     },
     {
-        id:1,
-        image:"images/Washingmachine/wm.jpeg",
+        id:9,
+        image:"images/Washingmachine/9.jpeg",
         name:"Asus Rog 5",
         list:[
-            {l:"6 GB RAM | 64 GB ROM | Expandable Upto 512 GB"},
-            {l:"16.59 cm (6.53 inch) Full HD+ Display"},
-            {l:"48MP + 2MP + 2MP | 8MP Front Camera"},
-            {l:"6000 mAh Lithium-ion Polymer Battery"},
-            {l:"Qualcomm Snapdragon 662 Processor"},
-            {l:"One Year Warranty for Handset, 6 Months for Accessories" }    
-        ]
+            {l:"Fully Automatic Top Load Washing Machines are ergonomically friendly and provide great wash quality"},
+            {l:"680 rpm : Higher the spin speed, lower the drying time"},
+            {l:"6.5 kg"} 
+        ],
+        price:""
     },
     {
-        id:1,
-        image:"images/Washingmachine/wm.jpeg",
+        id:10,
+        image:"images/Washingmachine/10.jpeg",
         name:"Asus Rog 5",
         list:[
-            {l:"6 GB RAM | 64 GB ROM | Expandable Upto 512 GB"},
-            {l:"16.59 cm (6.53 inch) Full HD+ Display"},
-            {l:"48MP + 2MP + 2MP | 8MP Front Camera"},
-            {l:"6000 mAh Lithium-ion Polymer Battery"},
-            {l:"Qualcomm Snapdragon 662 Processor"},
-            {l:"One Year Warranty for Handset, 6 Months for Accessories" }    
-        ]
+            {l:"Fully Automatic Top Load Washing Machines are ergonomically friendly and provide great wash quality"},
+            {l:"680 rpm : Higher the spin speed, lower the drying time"},
+            {l:"6.5 kg"}   
+        ],
+        price:""
     }
 ]
 
