@@ -1,5 +1,4 @@
 import React from 'react';
-import Card from './Card';
 import Detailsbox from './Detailsbox';
 import { NavLink } from 'react-router-dom';
 import ReactSPCardsSlider from 'react-sp-cards-slider';
@@ -55,7 +54,7 @@ const Mobiles = () => {
                                 return (
                                     <a style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
-                                            <div className="imgbox2_headphone"><img src={image} alt={name} className="sp-preview" /></div>
+                                            <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>

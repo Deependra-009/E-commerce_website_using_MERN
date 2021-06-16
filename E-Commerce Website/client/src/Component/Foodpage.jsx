@@ -1,7 +1,7 @@
 import React from 'react'
 import Detailsbox from './Detailsbox';
 import {Food} from '../Data/Beautycards';
-import {Laptopcard} from './Card';
+import {Foodcard} from './Card';
 
 const Foodpage=()=>{
     return (
@@ -15,7 +15,7 @@ const Foodpage=()=>{
                     {
                         Food.map((val) => {
                             return (
-                                <Laptopcard id={val.id} imgsrc={val.image} cname={val.name} list={val.list}></Laptopcard>
+                                <Foodcard price={val.price} id={val.id} imgsrc={val.image} cname={val.name} list={val.list}></Foodcard>
                             )
                         })
                     }

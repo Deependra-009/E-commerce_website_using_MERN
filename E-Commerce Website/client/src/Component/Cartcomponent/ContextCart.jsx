@@ -7,28 +7,26 @@ import { CartContext } from "./Cart";
 const ContextCart = () => {
   // cosumer
   const { item, totalAmount, totalItems, clearCart } = useContext(CartContext);
-  {
-    console.log(totalItems)
     if (item.length === 0) {
       return (
         <>
           <div className="cartbox">
-          <Navbar />
-          <section className="main-cart-section">
-            <h1>shopping Cart</h1>
-            <p className="total-items">
-              you have <span className="total-items-count">{totalItems} </span>
+            <Navbar />
+            <section className="main-cart-section">
+              <h1>shopping Cart</h1>
+              <p className="total-items">
+                you have <span className="total-items-count">{totalItems} </span>
               items in shopping cart
             </p>
 
-            <div className="cart-items">
-              <div className="cart-items-container">
-                <Scrollbars className="cart-items-container">
-                  <h1>Empty Cart</h1>
-                </Scrollbars>
+              <div className="cart-items">
+                <div className="cart-items-container">
+                  <Scrollbars className="cart-items-container">
+                    <h1>Empty Cart</h1>
+                  </Scrollbars>
+                </div>
               </div>
-            </div>
-          </section>
+            </section>
           </div>
         </>
       );
@@ -36,36 +34,35 @@ const ContextCart = () => {
       return (
         <>
           <div className="cartbox">
-          <Navbar />
-          <section className="main-cart-section">
-            <h1>shopping Cart</h1>
-            <p className="total-items">
-              you have <span className="total-items-count">{totalItems} </span>
+            <Navbar />
+            <section className="main-cart-section">
+              <h1>shopping Cart</h1>
+              <p className="total-items">
+                you have <span className="total-items-count">{totalItems} </span>
               items in shopping cart
             </p>
 
-            <div className="cart-items">
-              <div className="cart-items-container">
-                <Scrollbars className="cart-items-container">
-                  {item.map((curItem) => {
-                    return <Items key={curItem.id} {...curItem} />;
-                  })}
-                </Scrollbars>
+              <div className="cart-items">
+                <div className="cart-items-container">
+                  <Scrollbars className="cart-items-container">
+                    {item.map((curItem) => {
+                      return <Items key={curItem.id} {...curItem} />;
+                    })}
+                  </Scrollbars>
+                </div>
               </div>
-            </div>
-            <div className="card-total">
-              <h3>
-                card total: <span> {totalAmount}₹ </span>
-              </h3>
-              <button>CheckOut</button>
-              <button onClick={clearCart}>Clear Cart</button>
-            </div>
-          </section>
+              <div className="card-total">
+                <h3>
+                  card total: <span> {totalAmount}₹ </span>
+                </h3>
+                <button>CheckOut</button>
+                <button onClick={clearCart}>Clear Cart</button>
+              </div>
+            </section>
           </div>
         </>
       );
     }
-  }
-};
+  };
 
 export default ContextCart;

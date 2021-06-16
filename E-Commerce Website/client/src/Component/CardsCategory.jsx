@@ -88,8 +88,10 @@ const CardsCategory = () => {
                         itemRenderer={({ image, name }) => {
                             return (
                                 <NavLink to="/grocery" style={{ display: "block", boxSizing: "border-box" }}>
-                                    <div className="imgbox">
+                                    <div className="imgbox_grocery">
+                                    <div className="imgbeauty">
                                         <img src={image} alt={name} className="sp-preview" />
+                                        </div>
                                         <div className="card_info">{name}</div>
 
                                     </div>
@@ -118,8 +120,10 @@ const CardsCategory = () => {
                         itemRenderer={({ image, name }) => {
                             return (
                                 <NavLink to="/fashion" style={{ display: "block", boxSizing: "border-box" }}>
-                                    <div className="imgbox">
+                                    <div className="imgbox_grocery">
+                                    <div className="imgbeauty">
                                         <img src={image} alt={name} className="sp-preview" />
+                                        </div>
                                         <div className="card_info">{name}</div>
 
                                     </div>
@@ -148,8 +152,10 @@ const CardsCategory = () => {
                         itemRenderer={({ image, name }) => {
                             return (
                                 <NavLink to="/beauty" style={{ display: "block", boxSizing: "border-box" }}>
-                                    <div className="imgbox">
+                                    <div className="imgbox_beauty">
+                                        <div className="imgbeauty">
                                         <img src={image} alt={name} className="sp-preview" />
+                                        </div>
                                         <div className="card_info">{name}</div>
 
                                     </div>

@@ -1,61 +1,60 @@
 const Fridgecards=[
     {
         id:1,
-        image:"images/Fridge/fridge.jpeg",
-        name:"Camera",
+        image:"images/Fridge/1.jpeg",
+        name:"LG 190 L Direct Cool Single Door 5 Star Refrigerator)",
     },
-    {
-        id:1,
-        image:"images/Fridge/fridge.jpeg",
-        name:"Camera",
+    {id:2,
+        image:"images/Fridge/2.jpeg",
+        name:"SAMSUNG 192 L Direct Cool Single Door 2 Star Refrigerator",
+        
         
     },
     {
-        id:1,
-        image:"images/Fridge/fridge.jpeg",
-        name:"Camera",
+        id:3,
+        image:"images/Fridge/3.jpeg",
+        name:"SAMSUNG 198 L Direct Cool Single Door 5 Star Refrigerator",
         
     },
     {
-        id:1,
-        image:"images/Fridge/fridge.jpeg",
-        name:"Camera",
+        id:4,
+        image:"images/Fridge/4.jpeg",
+        name:"SAMSUNG 192 L Direct Cool Single Door 2 Star Refrigerator ",
         
     },
     {
-        id:1,
-        image:"images/Fridge/fridge.jpeg",
-        name:"Camera",
+        id:5,
+        image:"images/Fridge/5.jpeg",
+        name:"Haier 195 L Direct Cool Single Door 4 Star Refrigerator",
         
     },
     {
-        id:1,
-        image:"images/Fridge/fridge.jpeg",
-        name:"Camera",
+        id:6,
+        image:"images/Fridge/6.jpeg",
+        name:"CANDY 170 L Direct Cool Single Door 2 Star Refrigerator ",
        
     },
     {
-        id:1,
-        image:"images/Fridge/fridge.jpeg",
-        name:"Camera",
+        id:7,
+        image:"images/Fridge/7.jpeg",
+        name:"SAMSUNG 192 L Direct Cool Single Door 2 Star Refrigerator",
        
     },
     {
-        id:1,
-        image:"images/Fridge/fridge.jpeg",
-        name:"Camera",
+        id:8,
+        image:"images/Fridge/8.jpeg",
+        name:"godrej 236 l frost free double door 2 star refrigerator",
        
     },
     {
-        id:1,
-        image:"images/Fridge/fridge.jpeg",
-        name:"Camera",
-       
+        id:9,
+        image:"images/Fridge/9.jpeg",
+        name:"SAMSUNG 198 L Direct Cool Single Door 4 Star Refrigerator",
     },
     {
-        id:1,
-        image:"images/Fridge/fridge.jpeg",
-        name:"Camera",
+        id:10,
+        image:"images/Fridge/10.jpeg",
+        name:"LG 190 L Direct Cool Single Door 4 Star Refrigerator",
        
     },
     
@@ -307,56 +306,56 @@ const AC=[
 const chimney=[
     {
         id:1,
-        image:"images/chimney/chimney.jpeg",
-        name:"Chimney"
+        image:"images/chimney/1.jpeg",
+        name:"Elica Chimney ",
        
     },
     {
-        id:1,
-        image:"images/chimney/chimney.jpeg",
-        name:"Chimney"
+        id:2,
+        image:"images/chimney/2.jpeg",
+        name:"Hindware Chimney ",
        
     },
     {
-        id:1,
-        image:"images/chimney/chimney.jpeg",
-        name:"Chimney"
+        id:3,
+        image:"images/chimney/3.jpeg",
+        name:"Elica Chimney",
        
     },
     {
-        id:1,
-        image:"images/chimney/chimney.jpeg",
-        name:"Chimney"
+        id:4,
+        image:"images/chimney/4.jpeg",
+        name:"Glen Chimney ",
        
     },
     {
-        id:1,
-        image:"images/chimney/chimney.jpeg",
-        name:"Chimney"
+        id:5,
+        image:"images/chimney/5.jpeg",
+        name:"Faber Hood Chimney",
        
     },
     {
-        id:1,
-        image:"images/chimney/chimney.jpeg",
-        name:"Chimney"
+        id:6,
+        image:"images/chimney/6.jpeg",
+        name:"Eurodomo Hood  Chimney",
        
     },
     {
-        id:1,
-        image:"images/chimney/chimney.jpeg",
-        name:"Chimney"
+        id:7,
+        image:"images/chimney/7.jpeg",
+        name:"Hindware Chimney",
        
     },
     {
-        id:1,
-        image:"images/chimney/chimney.jpeg",
-        name:"Chimney"
+        id:8,
+        image:"images/chimney/8.jpeg",
+        name:"Faber Hood Mercury Chimney ",
        
     },
     {
-        id:1,
-        image:"images/chimney/chimney.jpeg",
-        name:"Chimney"
+        id:9,
+        image:"images/chimney/9.jpeg",
+        name:"Hindware Clarissa Chimney",
        
     }
 
@@ -366,57 +365,59 @@ const chimney=[
 
 const Washingmachine=[
     {
+       
         id:1,
-        image:"images/Washingmachine/wm.jpeg",
-        name:"Washing Machine",
+        image:"images/Washingmachine/1.jpeg",
+        name:"SAMSUNG 6.5 kg Fully Automatic ",
        
     },
     {
-        id:1,
-        image:"images/Washingmachine/wm.jpeg",
-        name:"Washing Machine",
+        id:2,
+        image:"images/Washingmachine/2.jpeg",
+        name:"Whirlpool 7 kg 5 Star",
        
     },
     {
-        id:1,
-        image:"images/Washingmachine/wm.jpeg",
-        name:"Washing Machine",
+       
+        id:3,
+        image:"images/Washingmachine/3.jpeg",
+        name:"SAMSUNG 6 kg 5 star",
        
     },
     {
-        id:1,
-        image:"images/Washingmachine/wm.jpeg",
-        name:"Washing Machine",
+        id:4,
+        image:"images/Washingmachine/4.jpeg",
+        name:"Whirlpool 6 kg Fully Automatic ",
        
     },
     {
-        id:1,
-        image:"images/Washingmachine/wm.jpeg",
-        name:"Washing Machine",
+        id:5,
+        image:"images/Washingmachine/5.jpeg",
+        name:"IFB 6 kg 5 Star Fully Automatic",
        
     },
     {
-        id:1,
-        image:"images/Washingmachine/wm.jpeg",
-        name:"Washing Machine",
+        id:6,
+        image:"images/Washingmachine/6.jpeg",
+        name:"LG 7 kg Fully Automatic ",
        
     },
     {
-        id:1,
-        image:"images/Washingmachine/wm.jpeg",
-        name:"Washing Machine",
+        id:7,
+        image:"images/Washingmachine/7.jpeg",
+        name:"BOSCH 7 kg ",
        
     },
     {
-        id:1,
-        image:"images/Washingmachine/wm.jpeg",
-        name:"Washing Machine",
+        id:8,
+        image:"images/Washingmachine/8.jpeg",
+        name:"SAMSUNG 6 kg Fully Automatic ",
        
     },
     {
-        id:1,
-        image:"images/Washingmachine/wm.jpeg",
-        name:"Washing Machine",
+        id:9,
+        image:"images/Washingmachine/9.jpeg",
+        name:"IFB 7 kg Fully Automatic ",
        
     }
 
@@ -426,56 +427,54 @@ const Washingmachine=[
 const microwave=[
     {
         id:1,
-        image:"images/microwave/microwave.jpeg",
-        name:"Microwave",
+        image:"images/microwave/1.jpeg",
+        name:"SAMSUNG 28 L Convection Microwave Oven ",
        
     },
     {
-        id:1,
-        image:"images/microwave/microwave.jpeg",
-        name:"Microwave",
+        id:2,
+        image:"images/microwave/2.jpeg",
+        name:"SAMSUNG 28 L Microwave Oven",
        
     },
     {
-        id:1,
-        image:"images/microwave/microwave.jpeg",
-        name:"Microwave",
+        id:3,
+        image:"images/microwave/3.jpeg",
+        name:"SAMSUNG 21 L Convection Microwave Oven)",
        
     },
     {
-        id:1,
-        image:"images/microwave/microwave.jpeg",
-        name:"Microwave",
+        id:5,
+        image:"images/microwave/5.jpeg",
+        name:"IFB 23 L Convection Microwave Oven",
        
     },
     {
-        id:1,
-        image:"images/microwave/microwave.jpeg",
-        name:"Microwave",
+        id:6,
+        image:"images/microwave/6.jpeg",
+        name:"BAJAJ 16-Litre ",
        
     },
     {
-        id:1,
-        image:"images/microwave/microwave.jpeg",
-        name:"Microwave",
-       
+        id:7,
+        image:"images/microwave/7.jpeg",
+        name:"SAMSUNG 23 L Solo Microwave",
     },
     {
-        id:1,
-        image:"images/microwave/microwave.jpeg",
-        name:"Microwave",
+        id:8,
+        image:"images/microwave/8.jpeg",
+        name:"SAMSUNG 23 L Solo Microwave ",
        
     },
-    {
-        id:1,
-        image:"images/microwave/microwave.jpeg",
-        name:"Microwave",
+    {   
+        id:9,
+        image:"images/microwave/9.jpeg",
+        name:"Morphy Richards 60-Litre",
        
     },
-    {
-        id:1,
-        image:"images/microwave/microwave.jpeg",
-        name:"Microwave",
+    { id:10,
+        image:"images/microwave/10.jpeg",
+        name:"BAJAJ 16-Litre",
        
     }
 
@@ -921,238 +920,240 @@ const Watch=[
 const Bedroomfurniture=[
     {
         id:1,
-        image:"images/Homedecor/Bedroom/bedroom.jpeg",
-        name:"Bedroom"
+        image:"images/Homedecor/Bedroom/1.jpeg",
+        name:"Bharat Wood Queen Box Bed",
     },
     {
-        id:1,
-        image:"images/Homedecor/Bedroom/bedroom.jpeg",
-        name:"Bedroom"
+        id:2,
+        image:"images/Homedecor/Bedroom/2.jpeg",
+        name:"Godrej3 Door Almirah",
     },
     {
-        id:1,
-        image:"images/Homedecor/Bedroom/bedroom.jpeg",
-        name:"Bedroom"
+        id:3,
+        image:"images/Homedecor/Bedroom/3.jpeg",
+        name:"Homes Studio 2 Door 4 Shelf PP Collapsible Wardrobe",
     },
     {
-        id:1,
-        image:"images/Homedecor/Bedroom/bedroom.jpeg",
-        name:"Bedroom"
+        id:4,
+        image:"images/Homedecor/Bedroom/4.jpeg",
+        name:"Homes Engineered Wood Queen Bed",
     },
     {
-        id:1,
-        image:"images/Homedecor/Bedroom/bedroom.jpeg",
-        name:"Bedroom"
+        id:5,
+        image:"images/Homedecor/Bedroom/5.jpeg",
+        name:"Pearl World Fabric Pouf",
     },
     {
-        id:1,
-        image:"images/Homedecor/Bedroom/bedroom.jpeg",
-        name:"Bedroom"
+        id:6,
+        image:"images/Homedecor/Bedroom/6.jpeg",
+        name:"Swingzy Rectangle-Shape Swing Chair Hanging Polyester ",
     },
     {
-        id:1,
-        image:"images/Homedecor/Bedroom/bedroom.jpeg",
-        name:"Bedroom"
+        id:7,
+        image:"images/Homedecor/Bedroom/7.jpeg",
+        name:"Homes Rhapsody Engineered Wood King Box Bed",
     },
     {
-        id:1,
-        image:"images/Homedecor/Bedroom/bedroom.jpeg",
-        name:"Bedroom"
+        id:8,
+        image:"images/Homedecor/Bedroom/8.jpeg",
+        name:"Perfect Homes Studio PP Collapsible Wardrobe",
     },
     {
-        id:1,
-        image:"images/Homedecor/Bedroom/bedroom.jpeg",
-        name:"Bedroom"
+        id:9,
+        image:"images/Homedecor/Bedroom/9.jpeg",
+        name:"Cosmoss Plastic Kitchen Trolley",
     }
 ];
 
 const Homedecor=[
     {
         id:1,
-        image:"images/Homedecor/Decor/decor.jpeg",
-        name:"Home Decor"
+        image:"images/Homedecor/Decor/1.jpeg",
+        name:"Art Amori Painting",
     },
     {
-        id:1,
-        image:"images/Homedecor/Decor/decor.jpeg",
-        name:"Home Decor"
+        id:2,
+        image:"images/Homedecor/Decor/2.jpeg",
+        name:"Masstone Peacock Painting",
     },
     {
-        id:1,
-        image:"images/Homedecor/Decor/decor.jpeg",
-        name:"Home Decor"
+        id:3,
+        image:"images/Homedecor/Decor/11.jpeg",
+        name:"Aquire PVC Vinyl",
     },
     {
-        id:1,
-        image:"images/Homedecor/Decor/decor.jpeg",
-        name:"Home Decor"
+        id:4,
+        image:"images/Homedecor/Decor/4.jpeg",
+        name:"BLUEWUD Key Holder ",
     },
     {
-        id:1,
-        image:"images/Homedecor/Decor/decor.jpeg",
-        name:"Home Decor"
+        id:5,
+        image:"images/Homedecor/Decor/5.jpeg",
+        name:"WolTop Wall paper ",
+    },
+    { 
+        id:6,
+        image:"images/Homedecor/Decor/6.jpeg",
+        name:"Aquire Vinyl",
     },
     {
-        id:1,
-        image:"images/Homedecor/Decor/decor.jpeg",
-        name:"Home Decor"
+         id:7,
+        image:"images/Homedecor/Decor/7.jpeg",
+        name:"SmartBuy Sticker Wallpaper",
     },
     {
-        id:1,
-        image:"images/Homedecor/Decor/decor.jpeg",
-        name:"Home Decor"
+        id:8,
+        image:"images/Homedecor/Decor/8.jpeg",
+        name:"Aquire PVC Vinyl",
     },
     {
-        id:1,
-        image:"images/Homedecor/Decor/decor.jpeg",
-        name:"Home Decor"
-    },
-    {
-        id:1,
-        image:"images/Homedecor/Decor/decor.jpeg",
-        name:"Home Decor"
+        id:9,
+        image:"images/Homedecor/Decor/9.jpeg",
+        name:"Indianara Motivational Spiritual Painting",
     }
 ];
 
 const Livingfurniture=[
     {
         id:1,
-        image:"images/Homedecor/Living/living.jpeg",
-        name:"Living"
+        image:"images/Homedecor/Living/1.jpeg",
+        name:"The Jaipur Living Edit Glass Solid Wood 4 Seater Dining Set",
     },
     {
-        id:1,
-        image:"images/Homedecor/Living/living.jpeg",
-        name:"Living"
+        id:2,
+        image:"images/Homedecor/Living/2.jpeg",
+        name:"The Jaipur Living Mombassa Solid Wood Dressing Table",
+    },
+    { 
+        id:3,
+        image:"images/Homedecor/Living/3.jpeg",
+        name:"The Jaipur Living Mombassa Solid Wood Dressing Table",
     },
     {
-        id:1,
-        image:"images/Homedecor/Living/living.jpeg",
-        name:"Living"
+        id:4,
+        image:"images/Homedecor/Living/4.jpeg",
+        name:"Urban Living Bristol Fabric 3 Seater Sofa",
     },
     {
-        id:1,
-        image:"images/Homedecor/Living/living.jpeg",
-        name:"Living"
+        id:5,
+        image:"images/Homedecor/Living/5.jpeg",
+        name:"Urban Living Bristol Fabric 2 Seater Sofa ",
     },
     {
-        id:1,
-        image:"images/Homedecor/Living/living.jpeg",
-        name:"Living"
+        id:6,
+        image:"images/Homedecor/Living/6.jpeg",
+        name:"The Jaipur Living Arabia Solid Wood Coffee Table",
     },
     {
-        id:1,
-        image:"images/Homedecor/Living/living.jpeg",
-        name:"Living"
+        id:7,
+        image:"images/Homedecor/Living/7.jpeg",
+        name:"The Jaipur Living Living & Bedroom Stool",
     },
     {
-        id:1,
-        image:"images/Homedecor/Living/living.jpeg",
-        name:"Living"
+        
+        id:8,
+        image:"images/Homedecor/Living/8.jpeg",
+        name:"Totza Living Jumbo Chair Bean Bag Cover",
     },
     {
-        id:1,
-        image:"images/Homedecor/Living/living.jpeg",
-        name:"Living"
-    },
-    {
-        id:1,
-        image:"images/Homedecor/Living/living.jpeg",
-        name:"Living"
+        id:9,
+        image:"images/Homedecor/Living/9.jpeg",
+        name:"Urban Living Buffalo Fabric 3 Seater Sofa",
     }
 ]
 const Kidsfurniture=[
     {
         id:1,
-        image:"images/Homedecor/Kids/kids.jpeg",
-        name:"Kids"
+        image:"images/Homedecor/Kids/1.jpeg",
+        name:"Wardrobe",
     },
     {
-        id:1,
-        image:"images/Homedecor/Kids/kids.jpeg",
-        name:"Kids"
+        id:2,
+        image:"images/Homedecor/Kids/2.jpeg",
+        name:"Book Shelf",
     },
     {
-        id:1,
-        image:"images/Homedecor/Kids/kids.jpeg",
-        name:"Kids"
+        id:3,
+        image:"images/Homedecor/Kids/3.jpeg",
+        name:"Bedside Table",
     },
     {
-        id:1,
-        image:"images/Homedecor/Kids/kids.jpeg",
-        name:"Kids"
+        id:4,
+        image:"images/Homedecor/Kids/4.jpeg",
+        name:"Single Box Bed",
     },
     {
-        id:1,
-        image:"images/Homedecor/Kids/kids.jpeg",
-        name:"Kids"
+        id:5,
+        image:"images/Homedecor/Kids/5.jpeg",
+        name:"Book Shelf",
     },
     {
-        id:1,
-        image:"images/Homedecor/Kids/kids.jpeg",
-        name:"Kids"
+        id:6,
+        image:"images/Homedecor/Kids/6.jpeg",
+        name:"Book Shelf",
     },
     {
-        id:1,
-        image:"images/Homedecor/Kids/kids.jpeg",
-        name:"Kids"
+        id:7,
+        image:"images/Homedecor/Kids/7.jpeg",
+        name:"Single Box Bed",
     },
     {
-        id:1,
-        image:"images/Homedecor/Kids/kids.jpeg",
-        name:"Kids"
+        id:8,
+        image:"images/Homedecor/Kids/8.jpeg",
+        name:"Single Box Bed",
     },
     {
-        id:1,
-        image:"images/Homedecor/Kids/kids.jpeg",
-        name:"Kids"
+        id:9,
+        image:"images/Homedecor/Kids/9.jpeg",
+        name:"Portable Laptop Table",
     }
 ]
 const Cookware=[
     {
         id:1,
-        image:"images/Homedecor/Cookware/cookware.jpeg",
-        name:"Cookware"
+        image:"images/Homedecor/Cookware/1.jpeg",
+        name:"Induction Cookware Set of 3",
     },
     {
-        id:1,
-        image:"images/Homedecor/Cookware/cookware.jpeg",
-        name:"Cookware"
+        id:2,
+        image:"images/Homedecor/Cookware/2.jpeg",
+        name:"Pigeon Pressure Cooker",
     },
     {
-        id:1,
-        image:"images/Homedecor/Cookware/cookware.jpeg",
-        name:"Cookware"
+        id:3,
+        image:"images/Homedecor/Cookware/3.jpeg",
+        name:"Pigeon Pressure Cooker",
     },
     {
-        id:1,
-        image:"images/Homedecor/Cookware/cookware.jpeg",
-        name:"Cookware"
+        id:4,
+        image:"images/Homedecor/Cookware/4.jpeg",
+        name:"LIMETRO Cookware Set",
     },
     {
-        id:1,
-        image:"images/Homedecor/Cookware/cookware.jpeg",
-        name:"Cookware"
+        id:5,
+        image:"images/Homedecor/Cookware/5.jpeg",
+        name:"BERGNER Cookware Set",
     },
     {
-        id:1,
-        image:"images/Homedecor/Cookware/cookware.jpeg",
-        name:"Cookware"
+        id:6,
+        image:"images/Homedecor/Cookware/6.jpeg",
+        name:"Renberg Cookware Set",
     },
     {
-        id:1,
-        image:"images/Homedecor/Cookware/cookware.jpeg",
-        name:"Cookware"
+        id:7,
+        image:"images/Homedecor/Cookware/7.jpeg",
+        name:"IMPEX Pressure Cooker",
     },
     {
-        id:1,
-        image:"images/Homedecor/Cookware/cookware.jpeg",
-        name:"Cookware"
+        id:8,
+        image:"images/Homedecor/Cookware/8.jpeg",
+        name:"Master Pressure Cooker",
     },
     {
-        id:1,
-        image:"images/Homedecor/Cookware/cookware.jpeg",
-        name:"Cookware"
+       
+        id:9,
+        image:"images/Homedecor/Cookware/9.jpeg",
+        name:"NEXA Cookware Set",
     }
 ]
 

@@ -15,7 +15,7 @@ const Refrigrator=()=>{
                     {
                         Fridgecards.map((val) => {
                             return (
-                                <Fridgecard id={val.id} imgsrc={val.image} cname={val.name} list={val.list}></Fridgecard>
+                                <Fridgecard price={val.price} id={val.id} imgsrc={val.image} cname={val.name} list={val.list}></Fridgecard>
                             )
                         })
                     }

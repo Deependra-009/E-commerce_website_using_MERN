@@ -186,6 +186,47 @@
     text-shadow: 0 0 15px #d35400;
 
 }
+.imgbox_grocery{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imgbox_grocery img{
+    width: 60%;
+}
+.imgbox_beauty{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgbox_beauty img{
+    width: 50%;
+}
+
+
+.imgbeauty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.card_img_food{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_img_food img{
+    width: 70%;
+}
 
 
 /* ------------- Responsive -----------------------------*/
@@ -208,6 +249,13 @@
     .footerbox p{
         font-size: 15px;
     }
+    .card_img_food{
+        width: 50%;
+    }
+    .card_img_food img{
+        width: 80%;
+    }
+    
 }
 @media all and (max-width:400px){
     .titleview{

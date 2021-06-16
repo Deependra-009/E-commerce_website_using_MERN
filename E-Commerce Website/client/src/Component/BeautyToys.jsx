@@ -14,33 +14,35 @@ const BeautyToys = () => {
 
                 {/* ----------------- Beauty ------------------------------------ */}
                 <div className="cardcategory">
-                    <div className="titleview">
-                        <h1>Beauty and Personal care</h1>
-                        <NavLink to="/beauty"><button>View All</button></NavLink>
-                    </div>
-                    <div style={{ maxWidth: "1500px", margin: "20px auto" }}>
-
-                        <ReactSPCardsSlider items={Beauty} step={3}
-                            itemRenderer={({ image, name }) => {
-                                return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
-                                        <div className="imgbox1">
-                                            <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
-                                            <div className="card_info">{name}</div>
-
-                                        </div>
-                                    </a>
-                                );
-                            }}
-                            itemWidth={200}
-                            itemsPadding={20}
-                            mainWidthLimit={1136}
-                            breakpoints={{
-                                lg: 1350,
-                            }}
-                        />
-                    </div>
+                <div className="titleview">
+                    <h1>Beauty</h1>
+                    <NavLink to="/beauty"><button>View All</button></NavLink>
                 </div>
+                <div style={{ maxWidth: "1500px", margin: "20px auto" }}>
+
+                    <ReactSPCardsSlider  items={Beauty} step={3}
+                        itemRenderer={({ image, name }) => {
+                            return (
+                                <NavLink to="/beauty" style={{ display: "block", boxSizing: "border-box" }}>
+                                    <div className="imgbox_beauty">
+                                        <div className="imgbeauty">
+                                        <img src={image} alt={name} className="sp-preview" />
+                                        </div>
+                                        <div className="card_info">{name}</div>
+
+                                    </div>
+                                </NavLink>
+                            );
+                        }}
+                        itemWidth={200}
+                        itemsPadding={20}
+                        mainWidthLimit={1136}
+                        breakpoints={{
+                            lg: 1350,
+                        }}
+                    />
+                </div>
+            </div>
                 {/* ----------------- Food Product ------------------------------------ */}
                 <div className="cardcategory">
                     <div className="titleview">
@@ -52,13 +54,15 @@ const BeautyToys = () => {
                         <ReactSPCardsSlider items={Food} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
-                                        <div className="imgbox1">
-                                            <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
-                                            <div className="card_info">{name}</div>
-
+                                    <NavLink to="/food" style={{ display: "block", boxSizing: "border-box" }}>
+                                    <div className="imgbox_beauty">
+                                        <div className="imgbeauty">
+                                        <img src={image} alt={name} className="sp-preview" />
                                         </div>
-                                    </a>
+                                        <div className="card_info">{name}</div>
+
+                                    </div>
+                                </NavLink>
                                 );
                             }}
                             itemWidth={200}
@@ -81,13 +85,15 @@ const BeautyToys = () => {
                         <ReactSPCardsSlider items={Fitness} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
-                                        <div className="imgbox1">
-                                            <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
-                                            <div className="card_info">{name}</div>
-
+                                    <NavLink to="/fitness" style={{ display: "block", boxSizing: "border-box" }}>
+                                    <div className="imgbox_beauty">
+                                        <div className="imgbeauty">
+                                        <img src={image} alt={name} className="sp-preview" />
                                         </div>
-                                    </a>
+                                        <div className="card_info">{name}</div>
+
+                                    </div>
+                                </NavLink>
                                 );
                             }}
                             itemWidth={200}
@@ -110,13 +116,15 @@ const BeautyToys = () => {
                         <ReactSPCardsSlider items={Toy} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
-                                        <div className="imgbox1">
-                                            <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
-                                            <div className="card_info">{name}</div>
-
+                                    <NavLink to="/toy" style={{ display: "block", boxSizing: "border-box" }}>
+                                    <div className="imgbox_beauty">
+                                        <div className="imgbeauty">
+                                        <img src={image} alt={name} className="sp-preview" />
                                         </div>
-                                    </a>
+                                        <div className="card_info">{name}</div>
+
+                                    </div>
+                                </NavLink>
                                 );
                             }}
                             itemWidth={200}

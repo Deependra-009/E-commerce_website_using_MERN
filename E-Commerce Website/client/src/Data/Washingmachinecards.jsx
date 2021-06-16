@@ -36,79 +36,79 @@ const Washingmachinecards=[
     {
         id:4,
         image:"images/Washingmachine/4.jpeg",
-        name:"Asus Rog 5",
+        name:"Whirlpool 6 kg Fully Automatic Top Load Grey  (WM ROYAL 6.0 GENX GREY 5YMW)",
         list:[
             {l:"Fully Automatic Top Load Washing Machines are ergonomically friendly and provide great wash quality"},
-            {l:"680 rpm : Higher the spin speed, lower the drying time"},
-            {l:"6.5 kg"} 
+            {l:"740 rpm : Higher the spin speed, lower the drying time"},
+            {l:"6 kg"} 
         ],
-        price:""
+        price:"₹13,240"
     },
     {
         id:5,
         image:"images/Washingmachine/5.jpeg",
-        name:"Asus Rog 5",
+        name:"IFB 6 kg 5 Star Fully Automatic Front Load with In-built Heater Silver  (Diva Aqua SX)",
         list:[
             {l:"Fully Automatic Top Load Washing Machines are ergonomically friendly and provide great wash quality"},
             {l:"680 rpm : Higher the spin speed, lower the drying time"},
-            {l:"6.5 kg"} 
+            {l:"6 kg"} 
         ],
-        price:""
+        price:"₹23,490"
     },
     {
         id:6,
         image:"images/Washingmachine/6.jpeg",
-        name:"Asus Rog 5",
+        name:"LG 7 kg Fully Automatic Front Load with In-built Heater Silver  (FHM1207ADL)",
         list:[
             {l:"Fully Automatic Top Load Washing Machines are ergonomically friendly and provide great wash quality"},
             {l:"680 rpm : Higher the spin speed, lower the drying time"},
-            {l:"6.5 kg"} 
+            {l:"7 kg"} 
         ],
-        price:""
+        price:"₹29,990"
     },
     {
         id:7,
         image:"images/Washingmachine/7.jpeg",
-        name:"Asus Rog 5",
+        name:"BOSCH 7 kg INVERTER TOUCH CONTROL Fully Automatic Front Load with In-built Heater White  (WAJ2006EIN)",
         list:[
             {l:"Fully Automatic Top Load Washing Machines are ergonomically friendly and provide great wash quality"},
-            {l:"680 rpm : Higher the spin speed, lower the drying time"},
-            {l:"6.5 kg"} 
+            {l:"1000 rpm : Higher the spin speed, lower the drying time"},
+            {l:"7 kg"} 
         ],
-        price:""
+        price:"₹28,990"
     },
     {
         id:8,
         image:"images/Washingmachine/8.jpeg",
-        name:"Asus Rog 5",
+        name:"SAMSUNG 6 kg Fully Automatic Front Load Silver  (WW60R20GLSS/TL)",
         list:[
             {l:"Fully Automatic Top Load Washing Machines are ergonomically friendly and provide great wash quality"},
-            {l:"680 rpm : Higher the spin speed, lower the drying time"},
-            {l:"6.5 kg"} 
+            {l:"1000 rpm : Higher the spin speed, lower the drying time"},
+            {l:"6 kg"} 
         ],
-        price:""
+        price:"₹23,490"
     },
     {
         id:9,
         image:"images/Washingmachine/9.jpeg",
-        name:"Asus Rog 5",
+        name:"IFB 7 kg Fully Automatic Front Load with In-built Heater Black, White  (Neo Diva BX 7 kg)",
         list:[
             {l:"Fully Automatic Top Load Washing Machines are ergonomically friendly and provide great wash quality"},
-            {l:"680 rpm : Higher the spin speed, lower the drying time"},
-            {l:"6.5 kg"} 
+            {l:"1000 rpm : Higher the spin speed, lower the drying time"},
+            {l:"7 kg"} 
         ],
-        price:""
+        price:"₹29,990"
     },
     {
         id:10,
         image:"images/Washingmachine/10.jpeg",
-        name:"Asus Rog 5",
+        name:"SAMSUNG 6.5 kg Monsoon drying feature Fully Automatic Top Load Silver  (WA65A4002VS/TL)",
         list:[
             {l:"Fully Automatic Top Load Washing Machines are ergonomically friendly and provide great wash quality"},
             {l:"680 rpm : Higher the spin speed, lower the drying time"},
             {l:"6.5 kg"}   
         ],
-        price:""
+        price:"₹14,190"
     }
 ]
 
