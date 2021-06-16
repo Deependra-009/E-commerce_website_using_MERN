@@ -9,7 +9,7 @@ const Bedroomfurniturepage=()=>{
             <Detailsbox></Detailsbox>
             <div className="mobilespage">
                 <div className="pageheading">
-                    <h1>Television</h1>
+                    <h1>Bedroom Furniture</h1>
                 </div>
                 <div>
                     {

@@ -9,7 +9,7 @@ const Camera=()=>{
             <Detailsbox></Detailsbox>
             <div className="mobilespage">
                 <div className="pageheading">
-                    <h1>Television</h1>
+                    <h1>Camera</h1>
                 </div>
                 <div>
                     {

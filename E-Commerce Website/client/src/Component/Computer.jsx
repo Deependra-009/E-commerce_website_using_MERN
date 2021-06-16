@@ -9,7 +9,7 @@ const Computer=()=>{
             <Detailsbox></Detailsbox>
             <div className="mobilespage">
                 <div className="pageheading">
-                    <h1>Television</h1>
+                    <h1>Computer</h1>
                 </div>
                 <div>
                     {

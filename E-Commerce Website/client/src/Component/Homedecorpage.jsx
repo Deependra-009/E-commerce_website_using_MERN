@@ -9,7 +9,7 @@ const Homedecorpage=()=>{
             <Detailsbox></Detailsbox>
             <div className="mobilespage">
                 <div className="pageheading">
-                    <h1>Television</h1>
+                    <h1>Home Decor</h1>
                 </div>
                 <div>
                     {

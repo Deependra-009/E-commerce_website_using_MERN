@@ -9,7 +9,7 @@ const Fitnesspage=()=>{
             <Detailsbox></Detailsbox>
             <div className="mobilespage">
                 <div className="pageheading">
-                    <h1>Fitnesspage </h1>
+                    <h1>Fitness </h1>
                 </div>
                 <div >
                     {

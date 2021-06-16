@@ -9,7 +9,7 @@ const Headphone=()=>{
             <Detailsbox></Detailsbox>
             <div className="mobilespage">
                 <div className="pageheading">
-                    <h1>Laptop</h1>
+                    <h1>Headphone</h1>
                 </div>
                 <div >
                     {
