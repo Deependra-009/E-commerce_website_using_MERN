@@ -1,6 +1,6 @@
 import React from 'react'
 import Detailsbox from './Detailsbox';
-import Chimneycards from './../Data/Chimneycards';
+import Chimneycards from '../Data/Chimneycards';
 import {Laptopcard} from './Card';
 
 const Chimney=()=>{

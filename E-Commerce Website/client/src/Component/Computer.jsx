@@ -1,6 +1,6 @@
 import React from 'react'
 import Detailsbox from './Detailsbox';
-import {PCcards } from './../Data/PCgamingcards';
+import {PCcards } from '../Data/PCgamingcards';
 import {Laptopcard} from './Card';
 
 const Computer=()=>{

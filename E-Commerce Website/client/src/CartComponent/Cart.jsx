@@ -1,6 +1,6 @@
 import React, { createContext, useReducer, useEffect } from "react";
-import "./../../CSS/cart.css";
-import  {products}  from "./product";
+import "./../CSS/cart.css";
+import  {products}  from "./products";
 import ContextCart from "./ContextCart";
 import  reducer  from "./reducer";
 

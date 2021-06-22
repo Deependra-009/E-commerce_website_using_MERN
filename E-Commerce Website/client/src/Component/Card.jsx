@@ -1,12 +1,57 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './../CSS/card.css';
 import FlashOnIcon from '@material-ui/icons/FlashOn';
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 
 
+const UploadData = async (arg) => {
+
+    let quantity = 1,id=0;
+
+
+    console.log("clicked");
+    console.log(arg);
+
+    // newId(id + 1);
+
+    try {
+        const res = await fetch('/addtocart', {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                id: id,
+                name: arg.cname,
+                image: arg.imgsrc,
+                price: arg.price,
+                quantity: quantity
+
+            })
+        });
+        console.log(ResizeObserverEntry);
+        if (res.status === 400) {
+            console.log("error");
+        }
+        else {
+            console.log("success");
+        }
+    }
+    catch (err) {
+        console.log(err);
+    }
+
+
+}
+
 
 
 const card = (props) => {
+
+
+
+
+
     return (
         <>
             <div className="cards">
@@ -24,8 +69,8 @@ const card = (props) => {
                     </div>
                     <div className="card_book">
                         <div className="price">{props.price}</div>
-                        <button style={{marginRight:"10px"}} id="b1" ><FlashOnIcon style={{fontSize:"30px"}}></FlashOnIcon>Book</button>
-                        <button style={{marginRight:"10px"}} id="b2" ><AddShoppingCartIcon style={{fontSize:"30px"}}></AddShoppingCartIcon>Add to Cart</button>
+                        <button style={{ marginRight: "10px" }} id="b1"  ><FlashOnIcon style={{ fontSize: "30px" }}></FlashOnIcon>Book</button>
+                        <button style={{ marginRight: "10px" }} id="b2" onClick={() => UploadData(props)}  ><AddShoppingCartIcon style={{ fontSize: "30px" }}></AddShoppingCartIcon>Add to Cart</button>
                     </div>
                 </div>
             </div>
@@ -33,7 +78,7 @@ const card = (props) => {
     )
 };
 
-const Laptopcard=(props)=>{
+const Laptopcard = (props) => {
     return (
         <>
             <div className="cards">
@@ -42,21 +87,21 @@ const Laptopcard=(props)=>{
                     <div className="card_info1">
                         <h3 className="card_title">{props.cname}</h3>
                         <ul>
-                            {   
+                            {
 
-                                props.list.map((val)=>{
+                                props.list.map((val) => {
                                     return (
                                         <li>{val.l}</li>
                                     )
                                 })
-                                
+
                             }
                         </ul>
                     </div>
                     <div className="card_book">
                         <div className="price">{props.price}</div>
-                        <button style={{marginRight:"10px"}} id="b1" ><FlashOnIcon style={{fontSize:"30px"}}></FlashOnIcon>Book</button>
-                        <button style={{marginRight:"10px"}} id="b2" ><AddShoppingCartIcon style={{fontSize:"30px"}}></AddShoppingCartIcon>Add to Cart</button>
+                        <button style={{ marginRight: "10px" }} id="b1" ><FlashOnIcon style={{ fontSize: "30px" }}></FlashOnIcon>Book</button>
+                        <button style={{ marginRight: "10px" }} id="b2" onClick={() => UploadData(props)} ><AddShoppingCartIcon style={{ fontSize: "30px" }}></AddShoppingCartIcon>Add to Cart</button>
                     </div>
                 </div>
             </div>
@@ -65,7 +110,7 @@ const Laptopcard=(props)=>{
 }
 
 
-const Fridgecard=(props)=>{
+const Fridgecard = (props) => {
     return (
         <>
             <div className="cards">
@@ -74,21 +119,21 @@ const Fridgecard=(props)=>{
                     <div className="card_info1">
                         <h3 className="card_title">{props.cname}</h3>
                         <ul>
-                            {   
+                            {
 
-                                props.list.map((val)=>{
+                                props.list.map((val) => {
                                     return (
                                         <li>{val.l}</li>
                                     )
                                 })
-                                
+
                             }
                         </ul>
                     </div>
                     <div className="card_book">
                         <div className="price">{props.price}</div>
-                        <button style={{marginRight:"10px"}} id="b1" ><FlashOnIcon style={{fontSize:"30px"}}></FlashOnIcon>Book</button>
-                        <button style={{marginRight:"10px"}} id="b2" ><AddShoppingCartIcon style={{fontSize:"30px"}}></AddShoppingCartIcon>Add to Cart</button>
+                        <button style={{ marginRight: "10px" }} id="b1" ><FlashOnIcon style={{ fontSize: "30px" }}></FlashOnIcon>Book</button>
+                        <button style={{ marginRight: "10px" }} id="b2" onClick={() => UploadData(props)} ><AddShoppingCartIcon style={{ fontSize: "30px" }}></AddShoppingCartIcon>Add to Cart</button>
                     </div>
                 </div>
             </div>
@@ -100,7 +145,7 @@ const Fridgecard=(props)=>{
 
 
 
-const Wmcard=(props)=>{
+const Wmcard = (props) => {
     return (
         <>
             <div className="cards">
@@ -109,21 +154,21 @@ const Wmcard=(props)=>{
                     <div className="card_info1">
                         <h3 className="card_title_wm">{props.cname}</h3>
                         <ul>
-                            {   
+                            {
 
-                                props.list.map((val)=>{
+                                props.list.map((val) => {
                                     return (
                                         <li>{val.l}</li>
                                     )
                                 })
-                                
+
                             }
                         </ul>
                     </div>
                     <div className="card_book">
                         <div className="price">{props.price}</div>
-                        <button style={{marginRight:"10px"}} id="b1" ><FlashOnIcon style={{fontSize:"30px"}}></FlashOnIcon>Book</button>
-                        <button style={{marginRight:"10px"}} id="b2" ><AddShoppingCartIcon style={{fontSize:"30px"}}></AddShoppingCartIcon>Add to Cart</button>
+                        <button style={{ marginRight: "10px" }} id="b1" ><FlashOnIcon style={{ fontSize: "30px" }}></FlashOnIcon>Book</button>
+                        <button style={{ marginRight: "10px" }} id="b2" onClick={() => UploadData(props)} ><AddShoppingCartIcon style={{ fontSize: "30px" }}></AddShoppingCartIcon>Add to Cart</button>
                     </div>
                 </div>
             </div>
@@ -132,7 +177,7 @@ const Wmcard=(props)=>{
 }
 
 
-const Foodcard=(props)=>{
+const Foodcard = (props) => {
     return (
         <>
             <div className="cards">
@@ -141,21 +186,21 @@ const Foodcard=(props)=>{
                     <div className="card_info1">
                         <h3 className="card_title_wm">{props.cname}</h3>
                         <ul>
-                            {   
+                            {
 
-                                props.list.map((val)=>{
+                                props.list.map((val) => {
                                     return (
                                         <li>{val.l}</li>
                                     )
                                 })
-                                
+
                             }
                         </ul>
                     </div>
                     <div className="card_book">
                         <div className="price">{props.price}</div>
-                        <button style={{marginRight:"10px"}} id="b1" ><FlashOnIcon style={{fontSize:"30px"}}></FlashOnIcon>Book</button>
-                        <button style={{marginRight:"10px"}} id="b2" ><AddShoppingCartIcon style={{fontSize:"30px"}}></AddShoppingCartIcon>Add to Cart</button>
+                        <button style={{ marginRight: "10px" }} id="b1" ><FlashOnIcon style={{ fontSize: "30px" }}></FlashOnIcon>Book</button>
+                        <button style={{ marginRight: "10px" }} id="b2" onClick={() => UploadData(props)} ><AddShoppingCartIcon style={{ fontSize: "30px" }}></AddShoppingCartIcon>Add to Cart</button>
                     </div>
                 </div>
             </div>
@@ -167,4 +212,4 @@ const Foodcard=(props)=>{
 
 
 export default card;
-export {Laptopcard,Fridgecard,Wmcard,Foodcard};
+export { Laptopcard, Fridgecard, Wmcard, Foodcard };

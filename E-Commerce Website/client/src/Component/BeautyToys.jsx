@@ -2,7 +2,7 @@ import React from 'react';
 import Detailsbox from './Detailsbox';
 import { NavLink } from 'react-router-dom';
 import ReactSPCardsSlider from 'react-sp-cards-slider';
-import { Toy,Food,Fitness,Beauty} from './../Data/Electronicsheading';
+import { Toy,Food,Fitness,Beauty} from '../Data/Electronicsheading';
 
 
 const BeautyToys = () => {

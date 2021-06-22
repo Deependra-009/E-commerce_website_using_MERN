@@ -2,7 +2,7 @@ import React from 'react';
 import Detailsbox from './Detailsbox';
 import { NavLink } from 'react-router-dom';
 import ReactSPCardsSlider from 'react-sp-cards-slider';
-import {Gaming,PC,Headphone,Cameracards,Laptopcards} from './../Data/Electronicsheading';
+import {Gaming,PC,Headphone,Cameracards,Laptopcards} from '../Data/Electronicsheading';
 
 
 const Mobiles = () => {

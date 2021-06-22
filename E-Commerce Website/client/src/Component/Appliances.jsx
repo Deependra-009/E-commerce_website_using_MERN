@@ -3,7 +3,7 @@ import Card from './Card';
 import Detailsbox from './Detailsbox';
 import { NavLink } from 'react-router-dom';
 import ReactSPCardsSlider from 'react-sp-cards-slider';
-import { Fridgecards,microwave,chimney,Washingmachine,Televisioncards,AC} from './../Data/Electronicsheading';
+import { Fridgecards,microwave,chimney,Washingmachine,Televisioncards,AC} from '../Data/Electronicsheading';
 
 
 const Mobiles = () => {

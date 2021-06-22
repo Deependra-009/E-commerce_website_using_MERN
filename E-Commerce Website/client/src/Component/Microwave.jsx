@@ -1,6 +1,6 @@
 import React from 'react'
 import Detailsbox from './Detailsbox';
-import Microwavecard from './../Data/Microwavecard';
+import Microwavecard from '../Data/Microwavecard';
 import {Laptopcard} from './Card';
 
 const Microwave=()=>{

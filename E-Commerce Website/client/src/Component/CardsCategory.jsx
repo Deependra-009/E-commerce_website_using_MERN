@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactSPCardsSlider from 'react-sp-cards-slider';
-import Electronicscards from './../Data/Electronicscards'
+import Electronicscards from '../Data/Electronicscards'
 import './../CSS/cardscategory.css';
 import { NavLink } from 'react-router-dom';
-import {Beautycards,Grocerycards,Fashioncards} from './../Data/Cardscategorycards';
-import {Mobilescardsheading} from './../Data/Electronicsheading';
+import {Beautycards,Grocerycards,Fashioncards} from '../Data/Cardscategorycards';
+import {Mobilescardsheading} from '../Data/Electronicsheading';
 
 
 

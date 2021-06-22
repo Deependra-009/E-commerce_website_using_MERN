@@ -1,6 +1,6 @@
 import React from 'react'
 import Detailsbox from './Detailsbox';
-import {Livingfurniture} from './../Data/Homedecorcards';
+import {Livingfurniture} from '../Data/Homedecorcards';
 import {Laptopcard} from './Card';
 
 const Livingfurniturepage=()=>{

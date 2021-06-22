@@ -2,7 +2,7 @@ import React from 'react';
 import Detailsbox from './Detailsbox';
 import { NavLink } from 'react-router-dom';
 import ReactSPCardsSlider from 'react-sp-cards-slider';
-import { Kids,Women,Watch,Men} from './../Data/Electronicsheading';
+import { Kids,Women,Watch,Men} from '../Data/Electronicsheading';
 
 
 const Fashion = () => {

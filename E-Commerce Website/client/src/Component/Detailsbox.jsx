@@ -1,5 +1,5 @@
 import React from 'react'
-import Sdata from './../Data/Sdata';
+import Sdata from '../Data/Sdata';
 import ReactSPCardsSlider from 'react-sp-cards-slider';
 import { NavLink } from 'react-router-dom';
 

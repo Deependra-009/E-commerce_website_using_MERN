@@ -1,6 +1,6 @@
 import React from 'react'
 import Detailsbox from './Detailsbox';
-import {Watch} from './../Data/Fashioncards';
+import {Watch} from '../Data/Fashioncards';
 import {Laptopcard} from './Card';
 
 const Watchpage=()=>{

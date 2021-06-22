@@ -1,11 +1,95 @@
-import React from 'react'
+import React,{useState,useContext} from 'react'
 import EmailIcon from '@material-ui/icons/Email';
 import LockIcon from '@material-ui/icons/Lock';
 import './../CSS/login.css';
 import rocket from './../images/rocket.png'
-import { NavLink } from 'react-router-dom';
+import { NavLink, useHistory } from 'react-router-dom';
+import {UserContext} from './App';
 
 const Login=()=>{
+
+    const {state,dispatch,cartData,UpdataData} = useContext(UserContext);
+
+
+    const history = useHistory();
+
+    const [email,setEmail]=useState('');
+    const [password,setPassword]=useState('');
+
+
+    const CartUpdate = async () => {
+        try {
+          const res = await fetch('/cart', {
+            method: "GET",
+            headers: {
+              Accept: "application/json",
+              "Content-Type": "application/json"
+      
+            },
+            credentials: "include"
+          });
+          const data = await res.json();
+          UpdataData({type:"CART",payload:data});
+          console.log(data);
+          console.log(cartData);
+      
+        }
+        catch (err) {
+          console.log(err);
+        }
+      }
+
+    
+
+    const loginUser= async (e)=>{
+
+        console.log(email,password);
+
+        e.preventDefault();
+
+        const res = await fetch('/signin', {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                email: email,
+                password: password,
+
+            })
+        });
+
+        const data =res.json();
+
+        if(res.status==400 || !data){
+            window.alert("filled details");
+            console.log("Invalid Registration");
+        }
+        else if (res.status === 401) {
+            window.alert("Invalid Details");
+            console.log("Invalid Registration");
+        }
+        else if (res.status === 403) {
+            window.alert("Wrong Password");
+            console.log("Invalid Registration");
+        }
+        else{
+            CartUpdate();
+            dispatch({type:"USER",payload:true});
+            console.log(cartData);
+
+            window.alert("Successful Login");
+            history.push("/");
+        }
+
+
+ 
+
+
+    }
+
+
+
     return (
         <>
             <div className="container">
@@ -19,16 +103,16 @@ const Login=()=>{
                             <h1>Sign In</h1>
                         </div>
                         <div className="data">
-                            <form action="" className="sign-in-form">
+                            <form method="POST" action="" className="sign-in-form">
                                 <div className="input-field">
                                     <EmailIcon style={{margin:"15px 10px",color:"black"}}></EmailIcon>
-                                    <input type="text" placeholder="Enter Email"></input>
+                                    <input onChange={(e)=>{setEmail(e.target.value)}} value={email} name="email" type="text" placeholder="Enter Email"></input>
                                 </div>
                                 <div className="input-field">
                                     <LockIcon style={{margin:"15px 10px",color:"black"}}></LockIcon>
-                                    <input type="text" placeholder="Enter Password"></input>
+                                    <input onChange={(e)=>{setPassword(e.target.value)}} value={password} name="password" type="text" placeholder="Enter Password"></input>
                                 </div>
-                                <input type="submit" value="login" className="btn solid"></input>
+                                <input type="submit" value="login" onClick={loginUser} className="btn solid"></input>
                             </form>
                             <NavLink id="link1" to="/register">Create an Account</NavLink>
                         </div>
