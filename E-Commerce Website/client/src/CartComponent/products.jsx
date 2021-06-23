@@ -1,4 +1,4 @@
-export  const products = [
+export const products = [
     {
       id: 1,
       title: "Samsung S21",
@@ -80,3 +80,4 @@ export  const products = [
       quantity: 1,
     },
   ];
+

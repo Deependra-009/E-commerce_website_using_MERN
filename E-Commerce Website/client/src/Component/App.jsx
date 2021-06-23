@@ -45,18 +45,53 @@ export const UserContext = createContext();
 
 const App = () => {
 
-    const [cartData,UpdataData]=useReducer(cartreducer,InitialState);
+    const [cartdata,newupdatecart]=useState([]);
 
+    const setcartdata=(value)=>{
+        newupdatecart(value);
+    }
+
+    console.log(cartdata);
+    const [state,setstate]=useState();
+
+    const update=(val)=>{
+        setstate(val);
+    }
+
+    useEffect(()=>{
+        const CartUpdate = async () => {
+            try {
+              const res = await fetch('/cart', {
+                method: "GET",
+                headers: {
+                  Accept: "application/json",
+                  "Content-Type": "application/json"
+          
+                },
+                credentials: "include"
+              });
+              const data = await res.json();
+              setcartdata(data);
+              console.log(data);
+          
+            }
+            catch (err) {
+              console.log(err);
+            }
+          }
+
+          CartUpdate();
+    })
     
 
 
    
-    const [state,dispatch]=useReducer(reducer,initialState);
+    // const [state,dispatch]=useReducer(reducer,initialState);
 
     return (
         <>
 
-            <UserContext.Provider value={{state,dispatch,cartData,UpdataData}}>
+            <UserContext.Provider value={{state,update,cartdata,setcartdata}}>
 
 
                 <Navbar></Navbar>

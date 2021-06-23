@@ -1,20 +1,31 @@
-import React, { createContext, useReducer, useEffect } from "react";
+import React, { createContext, useReducer, useEffect, useState, useContext } from "react";
 import "./../CSS/cart.css";
 import  {products}  from "./products";
 import ContextCart from "./ContextCart";
 import  reducer  from "./reducer";
+import {UserContext} from './../Component/App';
+
 
 export const CartContext = createContext();
 
-const initialState = {
-  item: products,
-  totalAmount: 0,
-  totalItem: 0,
-};
 
 const Cart = () => {
-  // const [item, setItem] = useState(products);
+  const {cartdata,setcartdata}= useContext(UserContext);
+  const [itemcart, setItem] = useState([]);
+
+
+  const initialState = {
+    item: cartdata,
+    totalAmount: 0,
+    totalItem: 0,
+  };
+
   const [state, dispatch] = useReducer(reducer, initialState);
+
+
+  
+
+  console.log("-->>>",cartdata);
 
   // to delete the indv. elements from an Item Cart
   const removeItem = (id) => {
@@ -54,6 +65,8 @@ const Cart = () => {
   return (
     <CartContext.Provider
       value={{ ...state, removeItem, clearCart, increment, decrement }}>
+      
+      
       <ContextCart />
     </CartContext.Provider>
   );

@@ -4,7 +4,7 @@ import {UserContext} from './App';
 
 const Logout=()=>{
     const history=useHistory();
-    const {state,dispatch} = useContext(UserContext);
+    const {state,update} = useContext(UserContext);
 
     //promises
 
@@ -19,7 +19,14 @@ const Logout=()=>{
             },
             credentials:"include"
         }).then((res)=>{
-            dispatch({type:"USER",payload:false});
+            update(false);
+            if(localStorage.getItem("state")==null){
+                console.log("---->","no");
+            }
+            else{
+                localStorage.setItem("state","false");
+
+            }
             history.push('/login',{
                 replace:true
             });

@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useEffect ,useContext } from 'react'
 import './../CSS/navbar.css';
 import MenuBar1 from '@material-ui/icons/Menu';
 import {NavLink} from 'react-router-dom'
@@ -8,10 +8,13 @@ import {UserContext} from './App';
 
 const Navbar=()=>{
 
-    const {state,dispatch}=useContext(UserContext);
+    const {state,update}=useContext(UserContext);
+
+    
+    
 
     const RenderMenu=()=>{
-        if(state){
+        if(state=="true"){
             return(
                 <>  
                     <ul>
@@ -41,9 +44,6 @@ const Navbar=()=>{
                     </li>
                     <li>
                         <NavLink to="/profile">Profile</NavLink>
-                    </li>
-                    <li id="cart">
-                        <NavLink to="/cart"><AddShoppingCartIcon style={{fontSize:"40px",marginBottom:"-15px"}}></AddShoppingCartIcon></NavLink>
                     </li>
                     <li>
                         <NavLink to="/login">Login</NavLink>

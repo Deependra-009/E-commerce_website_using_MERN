@@ -1,10 +1,12 @@
-import React, { useState } from 'react'
+import React, { useState ,useContext } from 'react'
 import './../CSS/card.css';
 import FlashOnIcon from '@material-ui/icons/FlashOn';
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
+import {UserContext} from './App';
 
 
 const UploadData = async (arg) => {
+
 
     let quantity = 1,id=0;
 
@@ -29,12 +31,11 @@ const UploadData = async (arg) => {
 
             })
         });
-        console.log(ResizeObserverEntry);
         if (res.status === 400) {
             console.log("error");
         }
         else {
-            console.log("success");
+            console.log("success")
         }
     }
     catch (err) {
@@ -46,7 +47,7 @@ const UploadData = async (arg) => {
 
 
 
-const card = (props) => {
+const Card = (props) => {
 
 
 
@@ -211,5 +212,5 @@ const Foodcard = (props) => {
 
 
 
-export default card;
+export default Card;
 export { Laptopcard, Fridgecard, Wmcard, Foodcard };

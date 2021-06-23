@@ -8,7 +8,7 @@ import {UserContext} from './App';
 
 const Login=()=>{
 
-    const {state,dispatch,cartData,UpdataData} = useContext(UserContext);
+    const {state,update,cartdata,setcartdata} = useContext(UserContext);
 
 
     const history = useHistory();
@@ -29,9 +29,8 @@ const Login=()=>{
             credentials: "include"
           });
           const data = await res.json();
-          UpdataData({type:"CART",payload:data});
+          setcartdata(data);
           console.log(data);
-          console.log(cartData);
       
         }
         catch (err) {
@@ -75,8 +74,13 @@ const Login=()=>{
         }
         else{
             CartUpdate();
-            dispatch({type:"USER",payload:true});
-            console.log(cartData);
+            update("true");
+            if(localStorage.getItem("state")==null){
+                localStorage.setItem("state","true");
+            }
+            else{
+                console.log("---->","no");
+            }
 
             window.alert("Successful Login");
             history.push("/");

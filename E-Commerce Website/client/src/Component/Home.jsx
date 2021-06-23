@@ -5,7 +5,6 @@ import CardsCategory from './CardsCategory';
 import Detailsbox from './Detailsbox';
 
 
-
 const Home = () => {
     return (
         <>

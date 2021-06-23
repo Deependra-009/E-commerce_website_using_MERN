@@ -4,25 +4,24 @@ import Plus from '@material-ui/icons/Add';
 import Minus from '@material-ui/icons/Minimize';
 import DeleteIcon from '@material-ui/icons/Delete';
 
-const Items = ({ id, description, title, img, price, quantity }) => {
+const Items = ({ _id, title, image, price, quantity }) => {
   const { removeItem, increment, decrement } = useContext(CartContext);
 
   return (
     <>
       <div className="items-info">
         <div className="product-img">
-          <img src={img} alt="iamge" />
+          <img src={image} alt="iamge" />
         </div>
 
         <div className="title">
           <h2>{title}</h2>
-          <p>{description}</p>
         </div>
 
         <div className="add-minus-quantity">
-          <Minus style={{fontSize:"30px",marginBottom:"18px",cursor:"Pointer"}} onClick={() => decrement(id)}></Minus>
+          <Minus style={{fontSize:"30px",marginBottom:"18px",cursor:"Pointer"}} onClick={() => decrement(_id)}></Minus>
           <input type="text" placeholder={quantity} disabled />
-          <Plus style={{fontSize:"30px",marginBottom:"0px",cursor:"Pointer"}}onClick={() => increment(id)}></Plus>
+          <Plus style={{fontSize:"30px",marginBottom:"0px",cursor:"Pointer"}}onClick={() => increment(_id)}></Plus>
         </div>
 
         <div className="price">
@@ -31,7 +30,7 @@ const Items = ({ id, description, title, img, price, quantity }) => {
 
         <div className="remove-item">
           <DeleteIcon style={{fontSize:"30px",cursor:"pointer"}} className="fas fa-trash-alt remove"
-            onClick={() => removeItem(id)}></DeleteIcon>
+            onClick={() => removeItem(_id)}></DeleteIcon>
         </div>
       </div>
 

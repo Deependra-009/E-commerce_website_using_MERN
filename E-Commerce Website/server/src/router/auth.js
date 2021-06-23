@@ -155,6 +155,7 @@ router.get('/logout', authenticate, async (req, res) => {
     try {
         req.rootUser.tokens = [];
         res.clearCookie('jwt', { path: '/' });
+        
         await req.rootUser.save();
 
 
@@ -162,6 +163,7 @@ router.get('/logout', authenticate, async (req, res) => {
 
 
         res.send('User Logout');
+        res.send(req.rootUser);
     }
     catch (err) {
         console.log(err);
@@ -175,10 +177,7 @@ router.get('/logout', authenticate, async (req, res) => {
 
 router.post('/addtocart', authenticate, async (req, res) => {
 
-    console.log("welcome add to cart");
-
     const { id, name, image, price, quantity } = req.body;
-    console.log(id, name, image, price, quantity);
 
     try {
 

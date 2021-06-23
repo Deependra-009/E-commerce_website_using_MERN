@@ -7,6 +7,7 @@ import { CartContext } from "./Cart";
 const ContextCart = () => {
   // cosumer
   const { item, totalAmount, totalItems, clearCart } = useContext(CartContext);
+  console.log(item.length,"--");
     if (item.length === 0) {
       return (
         <>
