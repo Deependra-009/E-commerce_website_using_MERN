@@ -1,8 +1,11 @@
-import React, { useState ,useContext } from 'react'
+import React, { useContext } from 'react'
 import './../CSS/card.css';
 import FlashOnIcon from '@material-ui/icons/FlashOn';
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import {UserContext} from './App';
+
+
+
 
 
 const UploadData = async (arg) => {
@@ -36,7 +39,7 @@ const UploadData = async (arg) => {
 
 
 const Card = (props) => {
-
+    const {updatebookproduct} = useContext(UserContext);
 
 
 
@@ -58,7 +61,7 @@ const Card = (props) => {
                     </div>
                     <div className="card_book">
                         <div className="price">{props.price}</div>
-                        <button style={{ marginRight: "10px" }} id="b1"  ><FlashOnIcon style={{ fontSize: "30px" }}></FlashOnIcon>Book</button>
+                        <button style={{ marginRight: "10px" }} id="b1" onClick={()=>updatebookproduct(props)}><FlashOnIcon style={{ fontSize: "30px" }}></FlashOnIcon>Book</button>
                         <button style={{ marginRight: "10px" }} id="b2" onClick={() => UploadData(props)}  ><AddShoppingCartIcon style={{ fontSize: "30px" }}></AddShoppingCartIcon>Add to Cart</button>
                     </div>
                 </div>
@@ -68,6 +71,7 @@ const Card = (props) => {
 };
 
 const Laptopcard = (props) => {
+    const {updatebookproduct} = useContext(UserContext);
     return (
         <>
             <div className="cards">
@@ -89,7 +93,7 @@ const Laptopcard = (props) => {
                     </div>
                     <div className="card_book">
                         <div className="price">{props.price}</div>
-                        <button style={{ marginRight: "10px" }} id="b1" ><FlashOnIcon style={{ fontSize: "30px" }}></FlashOnIcon>Book</button>
+                        <button style={{ marginRight: "10px" }} id="b1" onClick={()=>updatebookproduct(props)}><FlashOnIcon style={{ fontSize: "30px" }}></FlashOnIcon>Book</button>
                         <button style={{ marginRight: "10px" }} id="b2" onClick={() => UploadData(props)} ><AddShoppingCartIcon style={{ fontSize: "30px" }}></AddShoppingCartIcon>Add to Cart</button>
                     </div>
                 </div>
@@ -100,6 +104,7 @@ const Laptopcard = (props) => {
 
 
 const Fridgecard = (props) => {
+    const {updatebookproduct} = useContext(UserContext);
     return (
         <>
             <div className="cards">
@@ -121,7 +126,7 @@ const Fridgecard = (props) => {
                     </div>
                     <div className="card_book">
                         <div className="price">{props.price}</div>
-                        <button style={{ marginRight: "10px" }} id="b1" ><FlashOnIcon style={{ fontSize: "30px" }}></FlashOnIcon>Book</button>
+                        <button style={{ marginRight: "10px" }} id="b1" onClick={()=>updatebookproduct(props)}><FlashOnIcon style={{ fontSize: "30px" }}></FlashOnIcon>Book</button>
                         <button style={{ marginRight: "10px" }} id="b2" onClick={() => UploadData(props)} ><AddShoppingCartIcon style={{ fontSize: "30px" }}></AddShoppingCartIcon>Add to Cart</button>
                     </div>
                 </div>
@@ -135,6 +140,7 @@ const Fridgecard = (props) => {
 
 
 const Wmcard = (props) => {
+    const {updatebookproduct} = useContext(UserContext);
     return (
         <>
             <div className="cards">
@@ -156,7 +162,7 @@ const Wmcard = (props) => {
                     </div>
                     <div className="card_book">
                         <div className="price">{props.price}</div>
-                        <button style={{ marginRight: "10px" }} id="b1" ><FlashOnIcon style={{ fontSize: "30px" }}></FlashOnIcon>Book</button>
+                        <button style={{ marginRight: "10px" }} id="b1" onClick={()=>updatebookproduct(props)}><FlashOnIcon style={{ fontSize: "30px" }}></FlashOnIcon>Book</button>
                         <button style={{ marginRight: "10px" }} id="b2" onClick={() => UploadData(props)} ><AddShoppingCartIcon style={{ fontSize: "30px" }}></AddShoppingCartIcon>Add to Cart</button>
                     </div>
                 </div>
@@ -167,6 +173,7 @@ const Wmcard = (props) => {
 
 
 const Foodcard = (props) => {
+    const {updatebookproduct} = useContext(UserContext);
     return (
         <>
             <div className="cards">
@@ -188,7 +195,7 @@ const Foodcard = (props) => {
                     </div>
                     <div className="card_book">
                         <div className="price">{props.price}</div>
-                        <button style={{ marginRight: "10px" }} id="b1" ><FlashOnIcon style={{ fontSize: "30px" }}></FlashOnIcon>Book</button>
+                        <button style={{ marginRight: "10px" }} id="b1" onClick={()=>updatebookproduct(props)}><FlashOnIcon style={{ fontSize: "30px" }}></FlashOnIcon>Book</button>
                         <button style={{ marginRight: "10px" }} id="b2" onClick={() => UploadData(props)} ><AddShoppingCartIcon style={{ fontSize: "30px" }}></AddShoppingCartIcon>Add to Cart</button>
                     </div>
                 </div>

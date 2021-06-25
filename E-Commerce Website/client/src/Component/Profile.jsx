@@ -1,5 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import {useHistory} from 'react-router-dom';
+import './../CSS/profile.css';
 const Profile=()=>{
     const history=useHistory();
     const [userData,setuserData]=useState({});
@@ -54,11 +55,46 @@ const Profile=()=>{
 
     return(
         <>
-            <form method="GET">
-                <h1>{userData.name}</h1>
-                <h2>{userData.email}</h2>
-                <h3>{userData._id}</h3>
-            </form>
+            <div className="profilepage">
+                <div className="profilebox">
+                    <div className="profilebox1">
+                        <img src="images/logo.jpg"></img>
+                    </div>
+                    <div className="profilebox2">
+                        {/* <div className="profiledetails">
+                            <h3>Name - <span>{userData.name}</span></h3>
+                        </div>
+                        <div className="profiledetails">
+                            <h3>Email - <span>{userData.email}</span></h3>
+                        </div>
+                        <div className="profiledetails">
+                            <h3>Phone No - <span>{userData.phone}</span></h3>
+                        </div> */}
+                        <table>
+                            <tr>
+                                <td>Username</td>
+                                <td className="profiledetails"><span>{userData.name}</span></td>
+                            </tr>
+                            <tr>
+                                <td>Name</td>
+                                <td className="profiledetails"><span>{userData.name}</span></td>
+                            </tr>
+                            <tr>
+                                <td>E-mail</td>
+                                <td className="profiledetails"><span>{userData.email}</span></td>
+                            </tr>
+                            <tr>
+                                <td>Phone No</td>
+                                <td className="profiledetails"><span>{userData.phone}</span></td>
+                            </tr>
+                            <tr>
+                                <td>Address</td>
+                                <td className="profiledetails"><span>{userData.name}</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </>
     )
 };

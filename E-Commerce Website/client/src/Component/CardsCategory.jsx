@@ -5,6 +5,7 @@ import './../CSS/cardscategory.css';
 import { NavLink } from 'react-router-dom';
 import {Beautycards,Grocerycards,Fashioncards} from '../Data/Cardscategorycards';
 import {Mobilescardsheading} from '../Data/Electronicsheading';
+import { Scrollbars } from "react-custom-scrollbars-2";
 
 
 

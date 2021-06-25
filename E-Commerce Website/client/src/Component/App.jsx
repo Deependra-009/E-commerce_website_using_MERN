@@ -1,4 +1,5 @@
 import React, { createContext,useEffect, useContext, useReducer, useState } from 'react'
+import { NavLink, useHistory } from 'react-router-dom';
 import Login from './Login';
 import Navbar from './Navbar';
 import Signup from './Signup';
@@ -37,7 +38,7 @@ import Gaming from './Gaming';
 import Footer from './Footer';
 import Cart from './../CartComponent/Cart';
 import Profile from './Profile';
-import {initialState,reducer,cartreducer,InitialState} from '../Reducer/useReducer';
+import Detailspage from './Detailspage';
 import Logout from './Logout';
 
 export const UserContext = createContext();
@@ -46,13 +47,23 @@ export const UserContext = createContext();
 const App = () => {
 
     const [cartdata,newupdatecart]=useState([]);
+    const [state,setstate]=useState();
+    const [bookproduct,setbookproduct]=useState();
+
+    const history=useHistory();
+
 
     const setcartdata=(value)=>{
         newupdatecart(value);
     }
 
-    console.log(cartdata);
-    const [state,setstate]=useState();
+    
+    const updatebookproduct=(args)=>{
+        setbookproduct(args);
+        history.push('/detailspage');
+    }
+
+    
 
     const update=(val)=>{
         setstate(val);
@@ -91,7 +102,7 @@ const App = () => {
     return (
         <>
 
-            <UserContext.Provider value={{state,update,cartdata,setcartdata}}>
+            <UserContext.Provider value={{state,update,cartdata,setcartdata,updatebookproduct,bookproduct}}>
 
 
                 <Navbar></Navbar>
@@ -202,6 +213,9 @@ const App = () => {
                 </Route>
                 <Route path="/logout">
                     <Logout></Logout>
+                </Route>
+                <Route path="/detailspage">
+                    <Detailspage></Detailspage>
                 </Route>
                 <Footer></Footer>
             </UserContext.Provider>
