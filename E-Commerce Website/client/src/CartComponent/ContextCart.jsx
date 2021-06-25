@@ -3,6 +3,7 @@ import Items from "./Items";
 import Navbar from "./Navbar";
 import { Scrollbars } from "react-custom-scrollbars-2";
 import { CartContext } from "./Cart";
+import {Clear} from './../Reducer/Functions';
 
 const ContextCart = () => {
   // cosumer
@@ -54,10 +55,10 @@ const ContextCart = () => {
               </div>
               <div className="card-total">
                 <h3>
-                  card total: <span> {totalAmount}₹ </span>
+                  Total Amount: <span>₹ {totalAmount} </span>
                 </h3>
-                <button>CheckOut</button>
-                <button onClick={clearCart}>Clear Cart</button>
+                <button >CheckOut</button>
+                <button onClick={Clear} onClick={clearCart}>Clear Cart</button>
               </div>
             </section>
           </div>

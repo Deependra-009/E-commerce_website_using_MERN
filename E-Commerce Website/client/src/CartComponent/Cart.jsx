@@ -4,6 +4,10 @@ import  {products}  from "./products";
 import ContextCart from "./ContextCart";
 import  reducer  from "./reducer";
 import {UserContext} from './../Component/App';
+import {Clear} from './../Reducer/Functions';
+
+
+
 
 
 export const CartContext = createContext();
@@ -37,6 +41,7 @@ const Cart = () => {
 
   // clear the cart
   const clearCart = () => {
+    Clear();
     return dispatch({ type: "CLEAR_CART" });
   };
 

@@ -4,11 +4,36 @@ import MenuBar1 from '@material-ui/icons/Menu';
 import {NavLink} from 'react-router-dom'
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import {UserContext} from './App';
+import { useHistory } from 'react-router-dom';
 
 
 const Navbar=()=>{
+    const history=useHistory();
 
-    const {state,update}=useContext(UserContext);
+    const {state,update,cartdata,setcartdata}=useContext(UserContext);
+
+    const CartUpdate = async () => {
+        try {
+          const res = await fetch('/cart', {
+            method: "GET",
+            headers: {
+              Accept: "application/json",
+              "Content-Type": "application/json"
+      
+            },
+            credentials: "include"
+          });
+          const data = await res.json();
+          setcartdata(data);
+          console.log(data);
+          history.push("/cart");
+
+      
+        }
+        catch (err) {
+          console.log(err);
+        }
+      }
 
     
     
@@ -25,7 +50,7 @@ const Navbar=()=>{
                         <NavLink to="/profile">Profile</NavLink>
                     </li>
                     <li id="cart">
-                        <NavLink to="/cart"><AddShoppingCartIcon style={{fontSize:"40px",marginBottom:"-15px"}}></AddShoppingCartIcon></NavLink>
+                        <NavLink to=""><AddShoppingCartIcon onClick={ CartUpdate } id="cartbutton" style={{fontSize:"40px",marginBottom:"-15px"}}></AddShoppingCartIcon></NavLink>
                     </li>
                     
                     <li>
@@ -58,6 +83,9 @@ const Navbar=()=>{
         }
     }
 
+    const cart=document.getElementById("cartbutton");
+    
+
 
     return (
         <>
@@ -70,7 +98,7 @@ const Navbar=()=>{
                 
                 <RenderMenu></RenderMenu>
             </nav>
-            
+
         </>
     )
 };

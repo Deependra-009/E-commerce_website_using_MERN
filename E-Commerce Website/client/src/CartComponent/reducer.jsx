@@ -39,7 +39,11 @@ const reducer = (state, action) => {
     if(action.type==="GET_TOTAL"){
       let {totalItems,totalAmount}=state.item.reduce((accum,curval)=>{
         let {price,quantity}=curval;
-        let updateamount=parseInt(price)*quantity;
+        const a=price.replaceAll(",","");
+  
+        const b=a.replaceAll("₹","");
+        console.log("total:",b);
+        let updateamount=parseInt(b)*quantity;
         accum.totalAmount+=updateamount;
         accum.totalItems+=quantity;
         return accum;

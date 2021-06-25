@@ -58,31 +58,31 @@ const App = () => {
         setstate(val);
     }
 
-    useEffect(()=>{
-        const CartUpdate = async () => {
-            try {
-              const res = await fetch('/cart', {
-                method: "GET",
-                headers: {
-                  Accept: "application/json",
-                  "Content-Type": "application/json"
-          
-                },
-                credentials: "include"
-              });
-              const data = await res.json();
-              setcartdata(data);
-              console.log(data);
-          
-            }
-            catch (err) {
-              console.log(err);
-            }
-          }
+        // useEffect(()=>{
+        //     const CartUpdate = async () => {
+        //         try {
+        //           const res = await fetch('/cart', {
+        //             method: "GET",
+        //             headers: {
+        //               Accept: "application/json",
+        //               "Content-Type": "application/json"
+            
+        //             },
+        //             credentials: "include"
+        //           });
+        //           const data = await res.json();
+        //           setcartdata(data);
+        //           console.log(data);
+            
+        //         }
+        //         catch (err) {
+        //           console.log(err);
+        //         }
+        //       }
 
-          CartUpdate();
-    })
-    
+        //       CartUpdate();
+        // })
+        
 
 
    

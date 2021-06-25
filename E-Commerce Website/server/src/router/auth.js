@@ -177,12 +177,13 @@ router.get('/logout', authenticate, async (req, res) => {
 
 router.post('/addtocart', authenticate, async (req, res) => {
 
-    const { id, name, image, price, quantity } = req.body;
+    const {name, image, price, quantity } = req.body;
 
     try {
 
         const Product = await User.findOne({ _id: req.UserID, "cart.name": name });
         if (!Product) {
+            const id=req.rootUser.cart.length+1;
 
             req.rootUser.cart = req.rootUser.cart.concat([{ id, name, image, price, quantity }]);
 
@@ -214,8 +215,83 @@ router.post('/addtocart', authenticate, async (req, res) => {
 
 router.get('/cart', authenticate, async (req, res) =>{
     console.log("extract all data");
-    console.log(req.rootUser.cart);
+    var id=0;
+    // console.log(req.rootUser.cart);
+    var array=req.rootUser.cart
+    array.map((e)=>{
+        e.id=id+1;
+        id=id+1;
+    });
+    req.rootUser.cart=array;
+    await req.rootUser.save();
     res.send(req.rootUser.cart);
 })
 
 module.exports = router;
+
+/* ---------------------- Clear Cart -------------------------------------------*/
+
+router.post('/clearcart',authenticate,async (req,res)=>{
+    console.log("clear cart");
+    req.rootUser.cart=[];
+    await req.rootUser.save();
+})
+
+/* ---------------------- Increament Quantity -------------------------------------------*/
+
+router.post('/quantityincreament',authenticate,async (req,res)=>{
+    console.log("increament");
+    console.log(req.body.id);
+    try{
+
+        req.rootUser.cart[req.body.id-1].quantity+=1;
+        console.log(req.rootUser.cart[req.body.id-1].quantity)
+        await req.rootUser.save();
+
+    }
+    catch(err){
+        console.log(err);
+    }
+})
+
+
+/* ---------------------- Decreament Quantity -------------------------------------------*/
+
+router.post('/quantitydecreament',authenticate,async (req,res)=>{
+    console.log("decreament");
+    console.log(req.body.id);
+    try{
+
+        if(req.rootUser.cart[req.body.id-1].quantity>1){
+            console.log(req.rootUser.cart[req.body.id-1].quantity)
+            req.rootUser.cart[req.body.id-1].quantity-=1;
+            req.rootUser.save();
+        }
+
+    }
+    catch(err){
+        console.log(err);
+    }
+});
+
+
+/* ---------------------- Delete -------------------------------------------*/
+
+router.post('/carddelete',authenticate,async (req,res)=>{
+    console.log("delete");
+    console.log(req.body.id);
+    var id=0;
+    // req.user.tokens=req.user.tokens.filter((currele)=>{
+    //         return currele.token !== req.token;
+    //     });
+
+    var array=req.rootUser.cart.filter((currele)=>{
+        return currele.id !== req.body.id;
+    });
+    req.rootUser.cart=array;
+    await req.rootUser.save();
+    
+    
+
+     
+});

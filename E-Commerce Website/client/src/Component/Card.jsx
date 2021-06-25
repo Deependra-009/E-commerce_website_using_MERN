@@ -6,16 +6,7 @@ import {UserContext} from './App';
 
 
 const UploadData = async (arg) => {
-
-
     let quantity = 1,id=0;
-
-
-    console.log("clicked");
-    console.log(arg);
-
-    // newId(id + 1);
-
     try {
         const res = await fetch('/addtocart', {
             method: "POST",
@@ -28,7 +19,6 @@ const UploadData = async (arg) => {
                 image: arg.imgsrc,
                 price: arg.price,
                 quantity: quantity
-
             })
         });
         if (res.status === 400) {
@@ -41,8 +31,6 @@ const UploadData = async (arg) => {
     catch (err) {
         console.log(err);
     }
-
-
 }
 
 
