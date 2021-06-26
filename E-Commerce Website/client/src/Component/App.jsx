@@ -40,6 +40,7 @@ import Cart from './../CartComponent/Cart';
 import Profile from './Profile';
 import Detailspage from './Detailspage';
 import Logout from './Logout';
+import Payment from './Payment';
 
 export const UserContext = createContext();
 
@@ -49,8 +50,14 @@ const App = () => {
     const [cartdata,newupdatecart]=useState([]);
     const [state,setstate]=useState();
     const [bookproduct,setbookproduct]=useState();
+    const [paymentprice,setpaymentprice]=useState();
 
     const history=useHistory();
+
+    const setPayment=(args)=>{
+        setpaymentprice(args);
+        console.log("price:----");
+    }
 
 
     const setcartdata=(value)=>{
@@ -102,7 +109,7 @@ const App = () => {
     return (
         <>
 
-            <UserContext.Provider value={{state,update,cartdata,setcartdata,updatebookproduct,bookproduct}}>
+            <UserContext.Provider value={{state,update,cartdata,setcartdata,updatebookproduct,bookproduct,paymentprice,setPayment}}>
 
 
                 <Navbar></Navbar>
@@ -216,6 +223,9 @@ const App = () => {
                 </Route>
                 <Route path="/detailspage">
                     <Detailspage></Detailspage>
+                </Route>
+                <Route path="/payment">
+                    <Payment></Payment>
                 </Route>
                 <Footer></Footer>
             </UserContext.Provider>
