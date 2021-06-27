@@ -23,13 +23,13 @@ const Fashion = () => {
                         <ReactSPCardsSlider items={Bedroomfurniture} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/bedroomfurniture" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}
@@ -52,13 +52,13 @@ const Fashion = () => {
                         <ReactSPCardsSlider items={Livingfurniture} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/livingfurniture" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}
@@ -81,13 +81,13 @@ const Fashion = () => {
                         <ReactSPCardsSlider items={Kidsfurniture} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/kidsfurniture" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}
@@ -110,13 +110,13 @@ const Fashion = () => {
                         <ReactSPCardsSlider items={Homedecor} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/homedecor" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}
@@ -140,13 +140,13 @@ const Fashion = () => {
                         <ReactSPCardsSlider items={Cookware} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/cookware" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}

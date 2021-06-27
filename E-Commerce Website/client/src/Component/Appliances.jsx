@@ -1,5 +1,4 @@
-import React from 'react';
-import Card from './Card';
+import React from 'react';  
 import Detailsbox from './Detailsbox';
 import { NavLink } from 'react-router-dom';
 import ReactSPCardsSlider from 'react-sp-cards-slider';
@@ -24,13 +23,13 @@ const Mobiles = () => {
                         <ReactSPCardsSlider items={Televisioncards} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/television" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}
@@ -53,13 +52,13 @@ const Mobiles = () => {
                         <ReactSPCardsSlider items={Fridgecards} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/refrigrator" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}
@@ -82,13 +81,13 @@ const Mobiles = () => {
                         <ReactSPCardsSlider items={AC} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/ac" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}
@@ -111,13 +110,13 @@ const Mobiles = () => {
                         <ReactSPCardsSlider items={Washingmachine} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/washingmachine" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}
@@ -141,13 +140,13 @@ const Mobiles = () => {
                         <ReactSPCardsSlider items={microwave} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/microwave" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}
@@ -170,13 +169,13 @@ const Mobiles = () => {
                         <ReactSPCardsSlider items={chimney} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/chimney" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}

@@ -49,7 +49,7 @@ const Card = (props) => {
 
     return (
         <>
-            <div className="cards">
+            <div className="cards" >
                 <div className="card">
                     <div className="card_img"><img src={props.imgsrc} alt="" ></img></div>
                     <div className="card_info1">

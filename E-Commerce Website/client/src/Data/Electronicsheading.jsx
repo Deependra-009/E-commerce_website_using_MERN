@@ -1250,63 +1250,62 @@ const PC=[
         image:"images/PC/mac.jpeg",
         name:"APPLE iMac Core i5 "
     }
-]
+];
 
 const Mobilescardsheading=[
     {
         id:1,
         image:"images/mobiles/asusrog5.jpeg",
-        name:"ASUS ROG Phone 5 ",
+        name:"ASUS ROG Phone 5 "
        
 
     },
     {
         id:2,
         image:"images/mobiles/realmex7.jpeg",
-        name:"realme X7 5G  ",
+        name:"realme X7 5G  "
       
     },
     {
         id:3,
         image:"images/mobiles/iphone12.jpeg",
-        name:"APPLE iPhone 12 ",
+        name:"APPLE iPhone 12 "
        
     },
     {
         id:4,
         image:"images/mobiles/realme3.jpeg",
-        name:"realme X3 ",
+        name:"realme X3 "
        
     },
     {
         id:5,
         image:"images/mobiles/realmx.jpeg",
-        name:"realme X  ",
+        name:"realme X  "
        
     },
     {
         id:6,
         image:"images/mobiles/samsunggalaxy12.jpeg",
-        name:"Samsung Galaxy 12 ",
+        name:"Samsung Galaxy 12 "
        
     },
     {
         id:7,
         image:"images/mobiles/motorolag10.jpeg",
-        name:"MOTOROLA G10 Power  ",
+        name:"MOTOROLA G10 Power  "
        
     },
-    ,
     {
         id:8,
         image:"images/mobiles/redmi.jpeg",
-        name:"REDMI 9 Prime ",
+        name:"REDMI 9 Prime "
         
     },
     {
         id:9,
         image:"images/mobiles/iphonexr1.jpeg",
-        name:"Apple iPhone XR ",
+        name:"Apple iPhone XR "
         
     },
     {

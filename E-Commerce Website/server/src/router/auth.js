@@ -145,6 +145,14 @@ router.get('/profile', authenticate, (req, res) => {
 })
 
 
+/* ---------------------- Payment -------------------------------------------*/
+
+router.get('/payment', authenticate, (req, res) => {
+    res.send(req.rootUser);
+    console.log("-->");
+})
+
+
 
 /* ---------------------- Logout -------------------------------------------*/
 router.get('/logout', authenticate, async (req, res) => {

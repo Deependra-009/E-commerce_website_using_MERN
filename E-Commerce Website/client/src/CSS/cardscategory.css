@@ -75,6 +75,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .imgbox2{
     margin: 20px;
@@ -84,6 +85,7 @@
     justify-content: center;
     align-items: center;
     height: 60%;
+    cursor: pointer;
 }
 .imgbox2 img{
     width: 60%;
@@ -96,6 +98,7 @@
 }
 
 .footerbox{
+    margin-top: 7%;
     width: 100%;
     border: 2px solid black;
     padding: 20px;
@@ -104,7 +107,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+
 }
 .footerbox p{
     font-size: 25px;

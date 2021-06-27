@@ -23,13 +23,13 @@ const Fashion = () => {
                         <ReactSPCardsSlider items={Men} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/mentopwear" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}
@@ -52,13 +52,13 @@ const Fashion = () => {
                         <ReactSPCardsSlider items={Women} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/womens" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}
@@ -81,13 +81,13 @@ const Fashion = () => {
                         <ReactSPCardsSlider items={Kids} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/kids" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}
@@ -110,13 +110,13 @@ const Fashion = () => {
                         <ReactSPCardsSlider items={Watch} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/watch" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}

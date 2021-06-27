@@ -10,7 +10,7 @@ import {UserContext} from './App';
 
 const Login=()=>{
 
-    const {state,update,cartdata,setcartdata} = useContext(UserContext);
+    const {update,setcartdata} = useContext(UserContext);
 
 
     const history = useHistory();
@@ -62,7 +62,7 @@ const Login=()=>{
 
         const data =res.json();
 
-        if(res.status==400 || !data){
+        if(res.status===400 || !data){
             window.alert("filled details");
             console.log("Invalid Registration");
         }

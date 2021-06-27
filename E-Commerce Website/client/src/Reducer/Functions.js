@@ -1,3 +1,10 @@
+const Checked=()=>{
+    console.log("----");
+    // var res=$('btncheck')[0].checked;
+    // console.log("-->",res);
+}
+
+
 const Clear = async () => {
     try{
         const res=await fetch("/clearcart",{
@@ -70,4 +77,4 @@ const Delete = async (args) => {
     }
 }
 
-export {Clear,QuantityIncreament,QuantityDecreament,Delete};
+export {Clear,QuantityIncreament,QuantityDecreament,Delete,Checked};

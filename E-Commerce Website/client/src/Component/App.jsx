@@ -1,5 +1,5 @@
-import React, { createContext,useEffect, useContext, useReducer, useState } from 'react'
-import { NavLink, useHistory } from 'react-router-dom';
+import React, { createContext, useState } from 'react'
+import { useHistory } from 'react-router-dom';
 import Login from './Login';
 import Navbar from './Navbar';
 import Signup from './Signup';
@@ -56,7 +56,6 @@ const App = () => {
 
     const setPayment=(args)=>{
         setpaymentprice(args);
-        console.log("price:----");
     }
 
 
@@ -76,35 +75,7 @@ const App = () => {
         setstate(val);
     }
 
-        // useEffect(()=>{
-        //     const CartUpdate = async () => {
-        //         try {
-        //           const res = await fetch('/cart', {
-        //             method: "GET",
-        //             headers: {
-        //               Accept: "application/json",
-        //               "Content-Type": "application/json"
-            
-        //             },
-        //             credentials: "include"
-        //           });
-        //           const data = await res.json();
-        //           setcartdata(data);
-        //           console.log(data);
-            
-        //         }
-        //         catch (err) {
-        //           console.log(err);
-        //         }
-        //       }
 
-        //       CartUpdate();
-        // })
-        
-
-
-   
-    // const [state,dispatch]=useReducer(reducer,initialState);
 
     return (
         <>

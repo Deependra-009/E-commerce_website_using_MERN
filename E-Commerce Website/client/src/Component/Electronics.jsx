@@ -22,13 +22,13 @@ const Mobiles = () => {
                         <ReactSPCardsSlider items={Laptopcards} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/laptop" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}
@@ -52,13 +52,13 @@ const Mobiles = () => {
                         <ReactSPCardsSlider items={Headphone} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/headphone" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}
@@ -81,13 +81,13 @@ const Mobiles = () => {
                         <ReactSPCardsSlider items={Cameracards} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/camera" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}
@@ -110,13 +110,13 @@ const Mobiles = () => {
                         <ReactSPCardsSlider items={Gaming} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/gaming" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}
@@ -139,13 +139,13 @@ const Mobiles = () => {
                         <ReactSPCardsSlider items={PC} step={3}
                             itemRenderer={({ image, name }) => {
                                 return (
-                                    <a style={{ display: "block", boxSizing: "border-box" }}>
+                                    <NavLink to="/computer" style={{ display: "block", boxSizing: "border-box" }}>
                                         <div className="imgbox1">
                                             <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
                                             <div className="card_info">{name}</div>
 
                                         </div>
-                                    </a>
+                                    </NavLink>
                                 );
                             }}
                             itemWidth={200}

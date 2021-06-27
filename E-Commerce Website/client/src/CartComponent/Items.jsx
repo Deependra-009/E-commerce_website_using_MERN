@@ -27,7 +27,7 @@ const Items = ({ id, name, image, price, quantity }) => {
           <Plus style={{fontSize:"30px",marginBottom:"0px",cursor:"Pointer"}} onClick={()=> {QuantityIncreament(id); increment(id);}}></Plus>
         </div>
 
-        <div className="price">
+        <div className="pricecart">
           <h4>
           {price}
           </h4>

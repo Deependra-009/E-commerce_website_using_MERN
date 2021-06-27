@@ -1,14 +1,23 @@
 import React, { useContext } from "react";
 import Items from "./Items";
 import Navbar from "./Navbar";
+import { useHistory } from 'react-router-dom';
 import { Scrollbars } from "react-custom-scrollbars-2";
 import { CartContext } from "./Cart";
 import {Clear} from './../Reducer/Functions';
+import {UserContext} from './../Component/App';
+
 
 const ContextCart = () => {
+  const {  setPayment } = useContext(UserContext);
   // cosumer
   const { item, totalAmount, totalItems, clearCart } = useContext(CartContext);
-  console.log(item.length,"--");
+  const history = useHistory();
+  const Payment = (args) => {
+    setPayment(args);
+    history.push("/payment");
+  
+  }
     if (item.length === 0) {
       return (
         <>
@@ -57,8 +66,8 @@ const ContextCart = () => {
                 <h3>
                   Total Amount: <span>₹ {totalAmount} </span>
                 </h3>
-                <button >CheckOut</button>
-                <button onClick={Clear} onClick={clearCart}>Clear Cart</button>
+                <button onClick={() => Payment(totalAmount)}>CheckOut</button>
+                <button onClick={() => {Clear(); clearCart();}}>Clear Cart</button>
               </div>
             </section>
           </div>

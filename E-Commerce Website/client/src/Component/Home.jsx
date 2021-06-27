@@ -1,5 +1,4 @@
 import React from 'react'
-import Sdata from '../Data/Sdata';
 import './../CSS/home.css';
 import CardsCategory from './CardsCategory';
 import Detailsbox from './Detailsbox';

@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React from 'react';
 import Card from './Card';
 import Mobilescards from '../Data/Mobilescards';
 import Detailsbox from './Detailsbox';

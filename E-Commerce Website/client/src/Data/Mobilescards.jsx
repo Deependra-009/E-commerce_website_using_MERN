@@ -97,7 +97,6 @@ const Mobilescards=[
         ] ,
         price:"₹9,499"
     },
-    ,
     {
         id:8,
         image:"images/mobiles/redmi.jpeg",

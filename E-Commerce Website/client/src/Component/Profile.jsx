@@ -1,5 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import {useHistory} from 'react-router-dom';
+import Logo from './../images/logo.jpg';
 import './../CSS/profile.css';
 const Profile=()=>{
     const history=useHistory();
@@ -34,7 +35,6 @@ const Profile=()=>{
 
         }
         catch(err){
-            console.log("----");
             console.log(err);
             history.push('/login');
         }
@@ -46,7 +46,7 @@ const Profile=()=>{
         
         callProfilePage();
        
-    }, []);
+    });
 
       
 
@@ -58,23 +58,15 @@ const Profile=()=>{
             <div className="profilepage">
                 <div className="profilebox">
                     <div className="profilebox1">
-                        <img src="images/logo.jpg"></img>
+                        <img src={Logo} alt="Logo"></img>
                     </div>
                     <div className="profilebox2">
-                        {/* <div className="profiledetails">
-                            <h3>Name - <span>{userData.name}</span></h3>
-                        </div>
-                        <div className="profiledetails">
-                            <h3>Email - <span>{userData.email}</span></h3>
-                        </div>
-                        <div className="profiledetails">
-                            <h3>Phone No - <span>{userData.phone}</span></h3>
-                        </div> */}
+        
                         <table>
-                            <tr>
+                            {/* <tr>
                                 <td>Username</td>
                                 <td className="profiledetails"><span>{userData.name}</span></td>
-                            </tr>
+                            </tr> */}
                             <tr>
                                 <td>Name</td>
                                 <td className="profiledetails"><span>{userData.name}</span></td>

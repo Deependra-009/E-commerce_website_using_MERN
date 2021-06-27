@@ -229,14 +229,14 @@ header {
   outline: none;
 }
 
-.price {
+.pricecart {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.price h3 {
+.pricecart h4 {
   font-style: normal;
   font-weight: bold;
   font-size: 4rem;

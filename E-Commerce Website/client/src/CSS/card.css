@@ -2,7 +2,7 @@
     scroll-behavior: smooth;
 }
 #root{
-    background-color: rgba(255, 255, 255, 0.623);
+    /* background-color: rgba(255, 255, 255, 0.623); */
 }
 .mobilespage{
     width: 100%;
@@ -41,6 +41,11 @@
     align-items: center;
     padding: 15px;
     border-radius: 10px;
+}
+.card:hover{
+    z-index:1;
+    box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+    transform: scale(1.05);
 }
 
 .card_img{
@@ -95,7 +100,7 @@
     align-items: center;
 }
 .price{
-    width: 60%;
+    width: 37%;
     margin-bottom: 10px;
     padding: 10px;
     display: flex;
