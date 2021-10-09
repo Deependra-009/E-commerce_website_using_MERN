@@ -67,6 +67,10 @@ const Signup = () => {
             console.log("Invalid Registration");
         }
         else if (res.status === 423) {
+            window.alert("Mobile Number already Exist");
+            console.log("Invalid Registration");
+        }
+        else if (res.status === 423) {
             window.alert("Password Not Matched");
             console.log("Invalid Registration");
         }

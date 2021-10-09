@@ -10,7 +10,10 @@ import LocalOfferIcon from '@material-ui/icons/LocalOffer';
 import { Scrollbars } from "react-custom-scrollbars-2";
 
 
+
 const UploadData = async (arg) => {
+
+
     let quantity = 1, id = 0;
     try {
         const res = await fetch('/addtocart', {
@@ -26,11 +29,11 @@ const UploadData = async (arg) => {
                 quantity: quantity
             })
         });
-        if (res.status === 400) {
+        if(res.result===400){
             console.log("error");
         }
-        else {
-            console.log("success")
+        else{
+            console.log("success");
         }
     }
     catch (err) {
@@ -46,7 +49,7 @@ const Detailspage = () => {
     const history = useHistory();
     const Payment = (args) => {
         setPayment(args);
-        history.push("/payment");
+        history.push("/Payment");
 
     }
 

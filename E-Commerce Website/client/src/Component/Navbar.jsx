@@ -100,7 +100,7 @@ const Navbar = () => {
     return (
         <>
             <nav className="navbar1">
-                <div className="logo">iOsm</div>
+                <div className="logo">MEGAKART</div>
                 <label for="btn" className="icon">
                     <MenuBar1 style={{ fontSize: "30px" }} className="bars"></MenuBar1>
                 </label>

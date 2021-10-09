@@ -41,6 +41,8 @@ import Profile from './Profile';
 import Detailspage from './Detailspage';
 import Logout from './Logout';
 import Payment from './Payment';
+import Forgetpassword from './Forgetpassword';
+import ChangePassword from './ChangePassword';
 
 export const UserContext = createContext();
 
@@ -198,6 +200,13 @@ const App = () => {
                 <Route path="/payment">
                     <Payment></Payment>
                 </Route>
+                <Route path="/forget">
+                    <Forgetpassword></Forgetpassword>
+                </Route>
+                <Route path="/changepassword">
+                    <ChangePassword></ChangePassword>
+                </Route>
+               
                 <Footer></Footer>
             </UserContext.Provider>
         </>

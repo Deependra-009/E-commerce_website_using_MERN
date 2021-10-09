@@ -118,6 +118,9 @@ const Login=()=>{
                                     <LockIcon style={{margin:"15px 10px",color:"black"}}></LockIcon>
                                     <input onChange={(e)=>{setPassword(e.target.value)}} value={password} name="password" type="text" placeholder="Enter Password"></input>
                                 </div>
+                                <div className="forgot">
+                                    <NavLink id="forgot" to="/forget">Forgot Password?</NavLink>
+                                </div>
                                 <input type="submit" value="login" onClick={loginUser} className="btn solid"></input>
                             </form>
                             <NavLink id="link1" to="/register">Create an Account</NavLink>
@@ -127,6 +130,5 @@ const Login=()=>{
             </div>
         </>
     )
-};
-
+}
 export default Login;
