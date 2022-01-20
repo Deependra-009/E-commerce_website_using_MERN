@@ -1,6 +1,10 @@
 
-# E-commerce_Website using MERN
+# MEGAKART ( E-Commerce Website )
 
+* This project is based on MERN Technology.
+* In this project ReactJs for front-end , NodeJs and ExpressJs for Back-end and MongoDB for database.
+
+## Project Details
 
 * If you want to watch My project. So click this Link:- 
 
