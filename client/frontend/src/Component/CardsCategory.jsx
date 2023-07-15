@@ -37,25 +37,7 @@ const CardsCategory = () => {
                 </div>
                 <div style={{ maxWidth: "1500px", margin: "20px auto" }}>
 
-                    {/* <ReactSPCardsSlider  items={Electronicscards} step={3}
-                        itemRenderer={({ image, name }) => {
-                            return (
-                                <NavLink to="/electronics" style={{ display: "block", boxSizing: "border-box" }}>
-                                    <div className="imgbox1">
-                                        <div className="imgbox2"><img src={image} alt={name} className="sp-preview" /></div>
-                                        <div className="card_info">{name}</div>
-
-                                    </div>
-                                </NavLink>
-                            );
-                        }}
-                        itemWidth={200}
-                        itemsPadding={20}
-                        mainWidthLimit={1136}
-                        breakpoints={{
-                            lg: 1350,
-                        }}
-                    /> */}
+                  
                 </div>
         </div>
         {/* --------------------------------- Grocery ---------------------------------------------- */}
